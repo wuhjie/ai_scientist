@@ -1,0 +1,283 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1000" viewBox="0 0 1280 1000" role="img" aria-labelledby="ttl dsc" font-family='system-ui, -apple-system, "Segoe UI", Roboto, sans-serif'>
+<title id="ttl">The AI Scientist family: systems for autonomous scientific discovery, and the loop they close</title>
+<desc id="dsc">A grouped tree of pre-LLM discovery systems and LLM-era AI Scientist systems organised by subfield, with the hypothesis-representation, loop-closure and validation cycle they share.</desc>
+<defs><marker id="arw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2a78d6"/></marker></defs>
+<rect width="1280" height="1000" fill="#fcfcfb"/>
+<text x="36" y="48" font-size="23" fill="#0b0b0b" font-weight="700" text-anchor="start">The AI Scientist family</text>
+<text x="36" y="71" font-size="11.5" fill="#52514e" font-weight="400" text-anchor="start">Systems for autonomous and semi-autonomous scientific discovery, grouped as in the survey §§1–3. Venues as verified July 2026.</text>
+<rect x="24" y="94" width="1232" height="94" rx="10" fill="#f4f3ef"/>
+<text x="36" y="116" font-size="11" fill="#52514e" font-weight="700" text-anchor="start" letter-spacing="0.7">§1  CLASSICAL FOUNDATIONS (pre-LLM)</text>
+<rect x="47" y="128" width="180" height="46" rx="7" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<text x="58" y="148" font-size="11.5" fill="#0b0b0b" font-weight="600" text-anchor="start">DENDRAL</text>
+<text x="58" y="163" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">1965–</text>
+<rect x="245" y="128" width="180" height="46" rx="7" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<text x="256" y="148" font-size="11.5" fill="#0b0b0b" font-weight="600" text-anchor="start">BACON</text>
+<text x="256" y="163" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">Langley et al., 1981</text>
+<rect x="443" y="128" width="180" height="46" rx="7" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<text x="454" y="148" font-size="11.5" fill="#0b0b0b" font-weight="600" text-anchor="start">KEKADA</text>
+<text x="454" y="163" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">Kulkarni &amp; Simon, 1988</text>
+<rect x="641" y="128" width="180" height="46" rx="7" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<text x="652" y="148" font-size="10.5" fill="#0b0b0b" font-weight="600" text-anchor="start">Robot Scientist &quot;Adam&quot;</text>
+<text x="652" y="163" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">Nature 427:247–252 (2004)</text>
+<circle cx="807" cy="144" r="4.6" fill="#2a78d6"/>
+<rect x="855" y="128" width="180" height="46" rx="7" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<text x="866" y="148" font-size="10.5" fill="#0b0b0b" font-weight="600" text-anchor="start">The Automation of Science</text>
+<text x="866" y="163" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">Science 324:85–89 (2009)</text>
+<rect x="1053" y="128" width="180" height="46" rx="7" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<text x="1064" y="148" font-size="10.5" fill="#0b0b0b" font-weight="600" text-anchor="start">Scientific Discovery (book)</text>
+<text x="1064" y="163" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">Langley et al. (MIT Press)</text>
+<path d="M 825 151.0 L 851 151.0" fill="none" stroke="#2a78d6" stroke-width="1.5" stroke-linecap="round" marker-end="url(#arw)"/>
+<line x1="36" y1="206" x2="1244" y2="206" stroke="#c3c2b7" stroke-width="1" stroke-dasharray="4 5"/>
+<rect x="536.0" y="198" width="208" height="16" fill="#fcfcfb"/>
+<text x="640.0" y="210" font-size="10" fill="#898781" font-weight="600" text-anchor="middle">─  era break: LLM-based agents  ─</text>
+<rect x="405.0" y="226" width="470" height="34" rx="17" fill="#eaf2fd" stroke="#2a78d6" stroke-width="1"/>
+<text x="640.0" y="248" font-size="13" fill="#2a78d6" font-weight="700" text-anchor="middle">§2  LLM-era AI Scientists · systems by subfield</text>
+<line x1="640.0" y1="260" x2="640.0" y2="280" stroke="#2a78d6" stroke-width="1.5"/>
+<line x1="152.0" y1="280" x2="1128.0" y2="280" stroke="#2a78d6" stroke-width="1.5"/>
+<line x1="152.0" y1="280" x2="152.0" y2="296" stroke="#2a78d6" stroke-width="1.5"/>
+<line x1="396.0" y1="280" x2="396.0" y2="296" stroke="#2a78d6" stroke-width="1.5"/>
+<line x1="640.0" y1="280" x2="640.0" y2="296" stroke="#2a78d6" stroke-width="1.5"/>
+<line x1="884.0" y1="280" x2="884.0" y2="296" stroke="#2a78d6" stroke-width="1.5"/>
+<line x1="1128.0" y1="280" x2="1128.0" y2="296" stroke="#2a78d6" stroke-width="1.5"/>
+<rect x="36" y="296" width="232" height="34" rx="8" fill="#eaf2fd" stroke="#2a78d6" stroke-width="1"/>
+<text x="152.0" y="312" font-size="11.5" fill="#2a78d6" font-weight="700" text-anchor="middle">General / cross-domain</text>
+<text x="152.0" y="324" font-size="9" fill="#52514e" font-weight="400" text-anchor="middle">5 entries</text>
+<line x1="152.0" y1="330" x2="152.0" y2="340" stroke="#e1e0d9" stroke-width="1.5"/>
+<rect x="36" y="348" width="232" height="54" rx="7" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="36" y="348" width="3.5" height="54" rx="1.75" fill="#2a78d6"/>
+<text x="49" y="366" font-size="12.5" fill="#0b0b0b" font-weight="600" text-anchor="start">The AI Scientist</text>
+<text x="49" y="379" font-size="9.5" fill="#52514e" font-weight="400" text-anchor="start">Sakana AI</text>
+<text x="49" y="393" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">Nature 651, 2026</text>
+<circle cx="253" cy="363" r="4.6" fill="none" stroke="#2a78d6" stroke-width="1.4"/>
+<path d="M 253 358.4 A 4.6 4.6 0 0 1 253 367.6 Z" fill="#2a78d6"/>
+<rect x="36" y="412" width="232" height="54" rx="7" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="36" y="412" width="3.5" height="54" rx="1.75" fill="#2a78d6"/>
+<text x="49" y="430" font-size="12.5" fill="#0b0b0b" font-weight="600" text-anchor="start">Co-Scientist</text>
+<text x="49" y="443" font-size="9.5" fill="#52514e" font-weight="400" text-anchor="start">Google</text>
+<text x="49" y="457" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">Nature 655, 2026</text>
+<circle cx="253" cy="427" r="4.6" fill="#2a78d6"/>
+<line x1="152.0" y1="402" x2="152.0" y2="412" stroke="#e1e0d9" stroke-width="1.5"/>
+<rect x="36" y="476" width="232" height="54" rx="7" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="36" y="476" width="3.5" height="54" rx="1.75" fill="#2a78d6"/>
+<text x="49" y="494" font-size="12.5" fill="#0b0b0b" font-weight="600" text-anchor="start">ERA</text>
+<text x="49" y="507" font-size="9.5" fill="#52514e" font-weight="400" text-anchor="start">Google DeepMind</text>
+<text x="49" y="521" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">Nature 654, 2026</text>
+<circle cx="253" cy="491" r="4.6" fill="none" stroke="#2a78d6" stroke-width="1.4"/>
+<path d="M 253 486.4 A 4.6 4.6 0 0 1 253 495.6 Z" fill="#2a78d6"/>
+<line x1="152.0" y1="466" x2="152.0" y2="476" stroke="#e1e0d9" stroke-width="1.5"/>
+<rect x="36" y="540" width="232" height="54" rx="7" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="36" y="540" width="3.5" height="54" rx="1.75" fill="#2a78d6"/>
+<text x="49" y="558" font-size="12.5" fill="#0b0b0b" font-weight="600" text-anchor="start">Kosmos</text>
+<text x="49" y="571" font-size="9.5" fill="#52514e" font-weight="400" text-anchor="start">Edison Scientific</text>
+<rect x="49" y="578" width="74" height="14" rx="7" fill="none" stroke="#c3c2b7" stroke-width="1"/>
+<text x="56" y="588.5" font-size="9" fill="#898781" font-weight="500" text-anchor="start">[preprint]</text>
+<circle cx="253" cy="555" r="4.6" fill="none" stroke="#898781" stroke-width="1.4"/>
+<line x1="152.0" y1="530" x2="152.0" y2="540" stroke="#e1e0d9" stroke-width="1.5"/>
+<rect x="36" y="604" width="232" height="54" rx="7" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="36" y="604" width="3.5" height="54" rx="1.75" fill="#2a78d6"/>
+<text x="49" y="622" font-size="12.5" fill="#0b0b0b" font-weight="600" text-anchor="start">Agent Laboratory</text>
+<text x="49" y="635" font-size="9.5" fill="#52514e" font-weight="400" text-anchor="start">AMD / JHU</text>
+<rect x="49" y="642" width="74" height="14" rx="7" fill="none" stroke="#c3c2b7" stroke-width="1"/>
+<text x="56" y="652.5" font-size="9" fill="#898781" font-weight="500" text-anchor="start">[preprint]</text>
+<line x1="152.0" y1="594" x2="152.0" y2="604" stroke="#e1e0d9" stroke-width="1.5"/>
+<rect x="280" y="296" width="232" height="34" rx="8" fill="#eaf2fd" stroke="#2a78d6" stroke-width="1"/>
+<text x="396.0" y="312" font-size="11.5" fill="#2a78d6" font-weight="700" text-anchor="middle">Biology / life sciences</text>
+<text x="396.0" y="324" font-size="9" fill="#52514e" font-weight="400" text-anchor="middle">6 entries</text>
+<line x1="396.0" y1="330" x2="396.0" y2="340" stroke="#e1e0d9" stroke-width="1.5"/>
+<rect x="280" y="348" width="232" height="54" rx="7" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="280" y="348" width="3.5" height="54" rx="1.75" fill="#2a78d6"/>
+<text x="293" y="366" font-size="12.5" fill="#0b0b0b" font-weight="600" text-anchor="start">Biomni</text>
+<text x="293" y="379" font-size="9.5" fill="#52514e" font-weight="400" text-anchor="start">Stanford</text>
+<text x="293" y="393" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">Science, 2026</text>
+<circle cx="497" cy="363" r="4.6" fill="none" stroke="#2a78d6" stroke-width="1.4"/>
+<path d="M 497 358.4 A 4.6 4.6 0 0 1 497 367.6 Z" fill="#2a78d6"/>
+<rect x="280" y="412" width="232" height="54" rx="7" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="280" y="412" width="3.5" height="54" rx="1.75" fill="#2a78d6"/>
+<text x="293" y="430" font-size="12.5" fill="#0b0b0b" font-weight="600" text-anchor="start">Robin</text>
+<text x="293" y="443" font-size="9.5" fill="#52514e" font-weight="400" text-anchor="start">FutureHouse</text>
+<text x="293" y="457" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">Nature 655, 2026</text>
+<circle cx="497" cy="427" r="4.6" fill="#2a78d6"/>
+<line x1="396.0" y1="402" x2="396.0" y2="412" stroke="#e1e0d9" stroke-width="1.5"/>
+<rect x="280" y="476" width="232" height="54" rx="7" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="280" y="476" width="3.5" height="54" rx="1.75" fill="#2a78d6"/>
+<text x="293" y="494" font-size="12.5" fill="#0b0b0b" font-weight="600" text-anchor="start">Virtual Lab</text>
+<text x="293" y="507" font-size="9.5" fill="#52514e" font-weight="400" text-anchor="start">Stanford</text>
+<text x="293" y="521" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">Nature, 2025</text>
+<circle cx="497" cy="491" r="4.6" fill="#2a78d6"/>
+<line x1="396.0" y1="466" x2="396.0" y2="476" stroke="#e1e0d9" stroke-width="1.5"/>
+<rect x="280" y="540" width="232" height="54" rx="7" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="280" y="540" width="3.5" height="54" rx="1.75" fill="#2a78d6"/>
+<text x="293" y="558" font-size="12.5" fill="#0b0b0b" font-weight="600" text-anchor="start">CRISPR-GPT</text>
+<text x="293" y="571" font-size="9.5" fill="#52514e" font-weight="400" text-anchor="start">Stanford</text>
+<text x="293" y="585" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">Nat. Biomed. Eng. 10, 2026</text>
+<circle cx="497" cy="555" r="4.6" fill="#2a78d6"/>
+<line x1="396.0" y1="530" x2="396.0" y2="540" stroke="#e1e0d9" stroke-width="1.5"/>
+<rect x="280" y="604" width="232" height="54" rx="7" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="280" y="604" width="3.5" height="54" rx="1.75" fill="#2a78d6"/>
+<text x="293" y="622" font-size="12.5" fill="#0b0b0b" font-weight="600" text-anchor="start">PaperQA2</text>
+<text x="293" y="635" font-size="9.5" fill="#52514e" font-weight="400" text-anchor="start">FutureHouse</text>
+<rect x="293" y="642" width="74" height="14" rx="7" fill="none" stroke="#c3c2b7" stroke-width="1"/>
+<text x="300" y="652.5" font-size="9" fill="#898781" font-weight="500" text-anchor="start">[preprint]</text>
+<circle cx="497" cy="619" r="4.6" fill="none" stroke="#2a78d6" stroke-width="1.4"/>
+<path d="M 497 614.4 A 4.6 4.6 0 0 1 497 623.6 Z" fill="#2a78d6"/>
+<line x1="396.0" y1="594" x2="396.0" y2="604" stroke="#e1e0d9" stroke-width="1.5"/>
+<rect x="280" y="668" width="232" height="54" rx="7" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="280" y="668" width="3.5" height="54" rx="1.75" fill="#2a78d6"/>
+<text x="293" y="686" font-size="10.2" fill="#0b0b0b" font-weight="600" text-anchor="start">Empowering biomedical discovery</text>
+<text x="293" y="699" font-size="9.5" fill="#52514e" font-weight="400" text-anchor="start">Zitnik lab · agenda paper</text>
+<text x="293" y="713" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">Cell, 2024</text>
+<line x1="396.0" y1="658" x2="396.0" y2="668" stroke="#e1e0d9" stroke-width="1.5"/>
+<rect x="524" y="296" width="232" height="34" rx="8" fill="#eaf2fd" stroke="#2a78d6" stroke-width="1"/>
+<text x="640.0" y="312" font-size="10.2" fill="#2a78d6" font-weight="700" text-anchor="middle">Lab automation / self-driving labs</text>
+<text x="640.0" y="324" font-size="9" fill="#52514e" font-weight="400" text-anchor="middle">4 entries</text>
+<line x1="640.0" y1="330" x2="640.0" y2="340" stroke="#e1e0d9" stroke-width="1.5"/>
+<rect x="524" y="348" width="232" height="54" rx="7" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="524" y="348" width="3.5" height="54" rx="1.75" fill="#2a78d6"/>
+<text x="537" y="366" font-size="12.5" fill="#0b0b0b" font-weight="600" text-anchor="start">Coscientist</text>
+<text x="537" y="379" font-size="9.5" fill="#52514e" font-weight="400" text-anchor="start">Carnegie Mellon</text>
+<text x="537" y="393" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">Nature 624, 2023</text>
+<circle cx="741" cy="363" r="4.6" fill="#2a78d6"/>
+<rect x="524" y="412" width="232" height="54" rx="7" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="524" y="412" width="3.5" height="54" rx="1.75" fill="#2a78d6"/>
+<text x="537" y="430" font-size="12.5" fill="#0b0b0b" font-weight="600" text-anchor="start">A-Lab †</text>
+<text x="537" y="443" font-size="9.5" fill="#52514e" font-weight="400" text-anchor="start">LBNL / DeepMind</text>
+<text x="537" y="457" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">Nature, 2023</text>
+<circle cx="741" cy="427" r="4.6" fill="#2a78d6"/>
+<line x1="640.0" y1="402" x2="640.0" y2="412" stroke="#e1e0d9" stroke-width="1.5"/>
+<rect x="524" y="476" width="232" height="54" rx="7" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="524" y="476" width="3.5" height="54" rx="1.75" fill="#2a78d6"/>
+<text x="537" y="494" font-size="12.5" fill="#0b0b0b" font-weight="600" text-anchor="start">RoboChem</text>
+<text x="537" y="507" font-size="9.5" fill="#52514e" font-weight="400" text-anchor="start">Univ. of Amsterdam</text>
+<text x="537" y="521" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">Science, 2024</text>
+<line x1="640.0" y1="466" x2="640.0" y2="476" stroke="#e1e0d9" stroke-width="1.5"/>
+<rect x="524" y="540" width="232" height="54" rx="7" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="524" y="540" width="3.5" height="54" rx="1.75" fill="#2a78d6"/>
+<text x="537" y="558" font-size="10.2" fill="#0b0b0b" font-weight="600" text-anchor="start">Autonomous mobile robots</text>
+<text x="537" y="571" font-size="9.5" fill="#52514e" font-weight="400" text-anchor="start">Univ. of Liverpool</text>
+<text x="537" y="585" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">Nature, 2024</text>
+<line x1="640.0" y1="530" x2="640.0" y2="540" stroke="#e1e0d9" stroke-width="1.5"/>
+<rect x="768" y="296" width="232" height="34" rx="8" fill="#eaf2fd" stroke="#2a78d6" stroke-width="1"/>
+<text x="884.0" y="312" font-size="11.5" fill="#2a78d6" font-weight="700" text-anchor="middle">ML / CS self-research</text>
+<text x="884.0" y="324" font-size="9" fill="#52514e" font-weight="400" text-anchor="middle">6 entries</text>
+<line x1="884.0" y1="330" x2="884.0" y2="340" stroke="#e1e0d9" stroke-width="1.5"/>
+<rect x="768" y="348" width="232" height="54" rx="7" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="768" y="348" width="3.5" height="54" rx="1.75" fill="#2a78d6"/>
+<text x="781" y="366" font-size="12.5" fill="#0b0b0b" font-weight="600" text-anchor="start">FunSearch</text>
+<text x="781" y="379" font-size="9.5" fill="#52514e" font-weight="400" text-anchor="start">DeepMind</text>
+<text x="781" y="393" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">Nature 625, 2024</text>
+<circle cx="985" cy="363" r="4.6" fill="none" stroke="#2a78d6" stroke-width="1.4"/>
+<path d="M 985 358.4 A 4.6 4.6 0 0 1 985 367.6 Z" fill="#2a78d6"/>
+<rect x="768" y="412" width="232" height="54" rx="7" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="768" y="412" width="3.5" height="54" rx="1.75" fill="#2a78d6"/>
+<text x="781" y="430" font-size="12.5" fill="#0b0b0b" font-weight="600" text-anchor="start">AlphaEvolve</text>
+<text x="781" y="443" font-size="9.5" fill="#52514e" font-weight="400" text-anchor="start">DeepMind</text>
+<rect x="781" y="450" width="74" height="14" rx="7" fill="none" stroke="#c3c2b7" stroke-width="1"/>
+<text x="788" y="460.5" font-size="9" fill="#898781" font-weight="500" text-anchor="start">[preprint]</text>
+<circle cx="985" cy="427" r="4.6" fill="none" stroke="#2a78d6" stroke-width="1.4"/>
+<path d="M 985 422.4 A 4.6 4.6 0 0 1 985 431.6 Z" fill="#2a78d6"/>
+<line x1="884.0" y1="402" x2="884.0" y2="412" stroke="#e1e0d9" stroke-width="1.5"/>
+<rect x="768" y="476" width="232" height="54" rx="7" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="768" y="476" width="3.5" height="54" rx="1.75" fill="#2a78d6"/>
+<text x="781" y="494" font-size="12.5" fill="#0b0b0b" font-weight="600" text-anchor="start">AIDE</text>
+<text x="781" y="507" font-size="9.5" fill="#52514e" font-weight="400" text-anchor="start">Weco</text>
+<rect x="781" y="514" width="74" height="14" rx="7" fill="none" stroke="#c3c2b7" stroke-width="1"/>
+<text x="788" y="524.5" font-size="9" fill="#898781" font-weight="500" text-anchor="start">[preprint]</text>
+<line x1="884.0" y1="466" x2="884.0" y2="476" stroke="#e1e0d9" stroke-width="1.5"/>
+<rect x="768" y="540" width="232" height="54" rx="7" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="768" y="540" width="3.5" height="54" rx="1.75" fill="#2a78d6"/>
+<text x="781" y="558" font-size="12.5" fill="#0b0b0b" font-weight="600" text-anchor="start">MLE-STAR</text>
+<text x="781" y="571" font-size="9.5" fill="#52514e" font-weight="400" text-anchor="start">Google</text>
+<rect x="781" y="578" width="74" height="14" rx="7" fill="none" stroke="#c3c2b7" stroke-width="1"/>
+<text x="788" y="588.5" font-size="9" fill="#898781" font-weight="500" text-anchor="start">[preprint]</text>
+<line x1="884.0" y1="530" x2="884.0" y2="540" stroke="#e1e0d9" stroke-width="1.5"/>
+<rect x="768" y="604" width="232" height="54" rx="7" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="768" y="604" width="3.5" height="54" rx="1.75" fill="#2a78d6"/>
+<text x="781" y="622" font-size="12.5" fill="#0b0b0b" font-weight="600" text-anchor="start">Zochi</text>
+<text x="781" y="635" font-size="9.5" fill="#52514e" font-weight="400" text-anchor="start">Intology</text>
+<rect x="781" y="642" width="50" height="14" rx="7" fill="none" stroke="#c3c2b7" stroke-width="1"/>
+<text x="788" y="652.5" font-size="9" fill="#898781" font-weight="500" text-anchor="start">[blog]</text>
+<line x1="884.0" y1="594" x2="884.0" y2="604" stroke="#e1e0d9" stroke-width="1.5"/>
+<rect x="768" y="668" width="232" height="54" rx="7" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="768" y="668" width="3.5" height="54" rx="1.75" fill="#2a78d6"/>
+<text x="781" y="686" font-size="12.5" fill="#0b0b0b" font-weight="600" text-anchor="start">MLE-bench</text>
+<text x="781" y="699" font-size="9.5" fill="#52514e" font-weight="400" text-anchor="start">OpenAI · benchmark</text>
+<text x="781" y="713" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">ICLR 2025 (Oral)</text>
+<line x1="884.0" y1="658" x2="884.0" y2="668" stroke="#e1e0d9" stroke-width="1.5"/>
+<rect x="1012" y="296" width="232" height="34" rx="8" fill="#eaf2fd" stroke="#2a78d6" stroke-width="1"/>
+<text x="1128.0" y="312" font-size="11.5" fill="#2a78d6" font-weight="700" text-anchor="middle">Chemistry / materials</text>
+<text x="1128.0" y="324" font-size="9" fill="#52514e" font-weight="400" text-anchor="middle">6 entries</text>
+<line x1="1128.0" y1="330" x2="1128.0" y2="340" stroke="#e1e0d9" stroke-width="1.5"/>
+<rect x="1012" y="348" width="232" height="54" rx="7" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="1012" y="348" width="3.5" height="54" rx="1.75" fill="#2a78d6"/>
+<text x="1025" y="366" font-size="12.5" fill="#0b0b0b" font-weight="600" text-anchor="start">ChemCrow</text>
+<text x="1025" y="379" font-size="9.5" fill="#52514e" font-weight="400" text-anchor="start">EPFL</text>
+<text x="1025" y="393" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">Nat. Mach. Intell. 6, 2024</text>
+<circle cx="1229" cy="363" r="4.6" fill="#2a78d6"/>
+<rect x="1012" y="412" width="232" height="54" rx="7" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="1012" y="412" width="3.5" height="54" rx="1.75" fill="#2a78d6"/>
+<text x="1025" y="430" font-size="12.5" fill="#0b0b0b" font-weight="600" text-anchor="start">ChemAgents</text>
+<text x="1025" y="443" font-size="9.5" fill="#52514e" font-weight="400" text-anchor="start">USTC</text>
+<text x="1025" y="457" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">JACS 147, 2025</text>
+<circle cx="1229" cy="427" r="4.6" fill="#2a78d6"/>
+<line x1="1128.0" y1="402" x2="1128.0" y2="412" stroke="#e1e0d9" stroke-width="1.5"/>
+<rect x="1012" y="476" width="232" height="54" rx="7" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="1012" y="476" width="3.5" height="54" rx="1.75" fill="#2a78d6"/>
+<text x="1025" y="494" font-size="12.5" fill="#0b0b0b" font-weight="600" text-anchor="start">SciAgents</text>
+<text x="1025" y="507" font-size="9.5" fill="#52514e" font-weight="400" text-anchor="start">MIT</text>
+<text x="1025" y="521" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">Advanced Materials, 2025</text>
+<line x1="1128.0" y1="466" x2="1128.0" y2="476" stroke="#e1e0d9" stroke-width="1.5"/>
+<rect x="1012" y="540" width="232" height="54" rx="7" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="1012" y="540" width="3.5" height="54" rx="1.75" fill="#2a78d6"/>
+<text x="1025" y="558" font-size="12.5" fill="#0b0b0b" font-weight="600" text-anchor="start">LLM-SR</text>
+<text x="1025" y="585" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">ICLR 2025 (Oral)</text>
+<circle cx="1229" cy="555" r="4.6" fill="none" stroke="#2a78d6" stroke-width="1.4"/>
+<path d="M 1229 550.4 A 4.6 4.6 0 0 1 1229 559.6 Z" fill="#2a78d6"/>
+<line x1="1128.0" y1="530" x2="1128.0" y2="540" stroke="#e1e0d9" stroke-width="1.5"/>
+<rect x="1012" y="604" width="232" height="54" rx="7" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="1012" y="604" width="3.5" height="54" rx="1.75" fill="#2a78d6"/>
+<text x="1025" y="622" font-size="12.5" fill="#0b0b0b" font-weight="600" text-anchor="start">HoneyComb</text>
+<rect x="1025" y="642" width="74" height="14" rx="7" fill="none" stroke="#c3c2b7" stroke-width="1"/>
+<text x="1032" y="652.5" font-size="9" fill="#898781" font-weight="500" text-anchor="start">[preprint]</text>
+<line x1="1128.0" y1="594" x2="1128.0" y2="604" stroke="#e1e0d9" stroke-width="1.5"/>
+<rect x="1012" y="668" width="232" height="54" rx="7" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="1012" y="668" width="3.5" height="54" rx="1.75" fill="#2a78d6"/>
+<text x="1025" y="686" font-size="12.5" fill="#0b0b0b" font-weight="600" text-anchor="start">LLMatDesign</text>
+<rect x="1025" y="706" width="74" height="14" rx="7" fill="none" stroke="#c3c2b7" stroke-width="1"/>
+<text x="1032" y="716.5" font-size="9" fill="#898781" font-weight="500" text-anchor="start">[preprint]</text>
+<line x1="1128.0" y1="658" x2="1128.0" y2="668" stroke="#e1e0d9" stroke-width="1.5"/>
+<path d="M 978 402 L 978 411" fill="none" stroke="#2a78d6" stroke-width="1.5" stroke-linecap="round" marker-end="url(#arw)"/>
+<text x="971" y="411" font-size="8.5" fill="#2a78d6" font-weight="600" text-anchor="end">extends</text>
+<text x="36" y="754" font-size="11" fill="#52514e" font-weight="700" text-anchor="start" letter-spacing="0.7">§3  SYSTEMS AT A GLANCE — the three axes the survey cuts systems along</text>
+<rect x="36" y="770" width="376" height="82" rx="9" fill="#f4f3ef" stroke="#e1e0d9" stroke-width="1"/>
+<text x="50" y="791" font-size="12.5" fill="#0b0b0b" font-weight="700" text-anchor="start">Hypothesis representation</text>
+<text x="50" y="807" font-size="9.5" fill="#52514e" font-weight="400" text-anchor="start">What kind of object is the hypothesis?</text>
+<text x="50" y="825" font-size="9.5" fill="#2a78d6" font-weight="500" text-anchor="start">free text · program · structured state · logical</text>
+<rect x="452" y="770" width="376" height="82" rx="9" fill="#f4f3ef" stroke="#e1e0d9" stroke-width="1"/>
+<text x="466" y="791" font-size="12.5" fill="#0b0b0b" font-weight="700" text-anchor="start">Loop closure</text>
+<text x="466" y="807" font-size="9.5" fill="#52514e" font-weight="400" text-anchor="start">What decides whether a hypothesis survives?</text>
+<text x="466" y="825" font-size="9.5" fill="#2a78d6" font-weight="500" text-anchor="start">self-critique · debate / tournament · execution</text>
+<text x="466" y="838" font-size="9.5" fill="#2a78d6" font-weight="500" text-anchor="start">statistical · wet lab · formal</text>
+<rect x="868" y="770" width="376" height="82" rx="9" fill="#f4f3ef" stroke="#e1e0d9" stroke-width="1"/>
+<text x="882" y="791" font-size="12.5" fill="#0b0b0b" font-weight="700" text-anchor="start">Validation</text>
+<text x="882" y="807" font-size="9.5" fill="#52514e" font-weight="400" text-anchor="start">Was anything checked outside the model?</text>
+<text x="882" y="825" font-size="9.5" fill="#2a78d6" font-weight="500" text-anchor="start">none · benchmark · leaderboard</text>
+<text x="882" y="838" font-size="9.5" fill="#2a78d6" font-weight="500" text-anchor="start">in vitro · physical synthesis</text>
+<path d="M 419 811.0 L 445 811.0" fill="none" stroke="#2a78d6" stroke-width="1.5" stroke-linecap="round" marker-end="url(#arw)"/>
+<path d="M 835 811.0 L 861 811.0" fill="none" stroke="#2a78d6" stroke-width="1.5" stroke-linecap="round" marker-end="url(#arw)"/>
+<path d="M 1056.0 856 L 1056.0 874 L 224.0 874 L 224.0 856" fill="none" stroke="#2a78d6" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="5 4" marker-end="url(#arw)"/>
+<text x="640.0" y="888" font-size="9.5" fill="#2a78d6" font-weight="600" text-anchor="middle">next cycle</text>
+<line x1="36" y1="894" x2="1244" y2="894" stroke="#e1e0d9" stroke-width="1"/>
+<circle cx="42" cy="913" r="4.6" fill="#2a78d6"/>
+<text x="54" y="916" font-size="10" fill="#52514e" font-weight="400" text-anchor="start">validated outside the model — in vitro or physical synthesis (§3)</text>
+<circle cx="42" cy="933" r="4.6" fill="none" stroke="#2a78d6" stroke-width="1.4"/>
+<path d="M 42 928.4 A 4.6 4.6 0 0 1 42 937.6 Z" fill="#2a78d6"/>
+<text x="54" y="936" font-size="10" fill="#52514e" font-weight="400" text-anchor="start">benchmark, public leaderboard or held-out data (§3)</text>
+<circle cx="42" cy="953" r="4.6" fill="none" stroke="#898781" stroke-width="1.4"/>
+<text x="54" y="956" font-size="10" fill="#52514e" font-weight="400" text-anchor="start">partial / external, as reported (§3)</text>
+<text x="54" y="976" font-size="10" fill="#52514e" font-weight="400" text-anchor="start">no mark — not listed in the survey&#x27;s §3 at-a-glance table</text>
+<text x="640" y="916" font-size="10" fill="#52514e" font-weight="400" text-anchor="start">[preprint] no peer-reviewed version found at the last update  ·  [blog] company or lab post</text>
+<text x="640" y="936" font-size="10" fill="#52514e" font-weight="400" text-anchor="start">† A-Lab characterisation is contested — see §6 of the survey</text>
+<path d="M 640 950 L 662 950" fill="none" stroke="#2a78d6" stroke-width="1.5" stroke-linecap="round" marker-end="url(#arw)"/>
+<text x="670" y="953" font-size="10" fill="#52514e" font-weight="400" text-anchor="start">lineage stated in the survey. Columns group by subfield, not shared</text>
+<text x="670" y="969" font-size="10" fill="#52514e" font-weight="400" text-anchor="start">descent; §1 is context, not ancestry.</text>
+</svg>

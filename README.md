@@ -8,8 +8,17 @@ A curated survey of **LLM-based systems for autonomous and semi-autonomous scien
 
 ---
 
+## The field at a glance
+
+![The AI Scientist family — pre-LLM discovery systems above an era break, then LLM-era systems grouped into five subfield branches, each node marked with how strongly it was validated; below, the hypothesis-representation → loop-closure → validation cycle from §3](assets/ai-scientist-family-tree.svg)
+
+Sections [1](#1-classical-foundations-pre-llm)–[3](#3-systems-at-a-glance) as one picture. Arrows mark **only** the lineages this survey states — Adam → the Adam/Eve programme, and AlphaEvolve extending FunSearch. Columns are subfield groupings, not shared descent, and §1 is context rather than ancestry. Node marks are the Validation column of [§3](#3-systems-at-a-glance): ● checked outside the model (*in vitro* or physical synthesis) · ◐ benchmark, leaderboard or held-out data · ○ partial, as reported.
+
+---
+
 ## Contents
 
+- [The field at a glance](#the-field-at-a-glance)
 - [How to read this survey](#how-to-read-this-survey)
 - [1. Classical foundations (pre-LLM)](#1-classical-foundations-pre-llm)
 - [2. Systems by subfield](#2-systems-by-subfield)
