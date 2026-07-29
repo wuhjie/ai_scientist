@@ -2,7 +2,7 @@
 
 A curated survey of **LLM-based systems for autonomous and semi-autonomous scientific discovery** — AI Scientists, scientific agents, self-driving labs — together with the reasoning, verification and evaluation literature they depend on.
 
-**Last updated: 29 July 2026.** Venues are re-verified on each update; see [Verification policy](#verification-policy). This refresh moved HoneyComb and AstaBench out of `[preprint]`, added a *Checked by* axis to [§3](#3-systems-at-a-glance), and added the process-supervision and citation-verification work in [§4](#4-reasoning--verification-substrate)–[§5](#5-evidence-attribution--claim-verification).
+**Last updated: 29 July 2026.** Venues are re-verified on each update; see [Verification policy](#verification-policy). This refresh moved HoneyComb and AstaBench out of `[preprint]`, added a *Checked by* axis to [§3](#3-systems-at-a-glance), added the process-supervision and citation-verification work in [§4](#4-reasoning--verification-substrate)–[§5](#5-evidence-attribution--claim-verification), and added a [structural analysis](#structural-analysis-of-a-15-system-subset) of a 15-system subset coded from the papers themselves.
 
 > **Why another list?** Most survey repos in this space link to preprints that have since been peer-reviewed, and organise purely by application domain. This one tracks **canonical venues** (a large fraction of this field's headline systems are now in *Nature*, *Science* or *Nature Machine Intelligence*, not on arXiv) and adds three sections that domain-organised lists usually omit: the **pre-LLM discovery systems**, the **reasoning/verification substrate**, and the **critical evaluations** of AI Scientists.
 
@@ -27,6 +27,7 @@ Sections [1](#1-classical-foundations-pre-llm)–[3](#3-systems-at-a-glance) as 
 - [1. Classical foundations (pre-LLM)](#1-classical-foundations-pre-llm)
 - [2. Systems by subfield](#2-systems-by-subfield)
 - [3. Systems at a glance](#3-systems-at-a-glance)
+  - [Structural analysis of a 15-system subset](#structural-analysis-of-a-15-system-subset)
 - [4. Reasoning & verification substrate](#4-reasoning--verification-substrate)
 - [5. Evidence, attribution & claim verification](#5-evidence-attribution--claim-verification)
 - [6. Critical evaluations & audits](#6-critical-evaluations--audits)
@@ -194,6 +195,31 @@ The same systems, re-cut along the axes from [How to read this survey](#how-to-r
 | LLMatDesign | `[preprint]` | structured state | execution (self-reflective loop) | not reported | — |
 | PaperQA2 | `[preprint]` | n/a (retrieval) | citation check | benchmark | authors |
 | Zochi | `[blog]` | free text | execution + self-critique | venue review (claimed) | — |
+
+### Structural analysis of a 15-system subset
+
+A separate pass coded 15 of these systems **field by field from the papers themselves** — 6 read in full text, 9 from abstracts only — along the axes above plus reasoning strategy, belief revision and human involvement.
+
+> ⚠️ **This subset is neither the 27 systems catalogued in [§2](#2-systems-by-subfield) nor the 27 rows coded in [§3](#3-systems-at-a-glance).** It is 15 systems selected by what could be read, not by any inclusion rule. Its counts are not meant to reconcile with the counts elsewhere in this file.
+
+**Independent verification is rare.** Who performed the check, across the 15:
+
+| Checked by | Systems |
+|---|---|
+| An unconnected third party | **2** |
+| Collaborating labs | 1 |
+| The authors themselves | 4 |
+| Not stated | **8** |
+
+**Mechanism is reported less often than contribution.** All 15 state their contribution and their domain. Among the 6 read in full there are only **3 omissions across 66 coded fields**, so the fall-off on the mechanism fields is mostly what an abstract cannot tell you rather than what an author withheld. Hypothesis representation was recoverable in **6 of 6** full-text papers and **2 of 9** abstracts — the single sharpest difference between the two groups.
+
+**Design choices form implication chains rather than correlations.** Every system whose hypothesis is a program verifies by execution (4/4) — but that is *definitional*, since a program-as-hypothesis is the artifact executed, and it should not be read as a finding. The empirical counterpart is wet lab → partial human involvement (4/4): in this subset every wet-lab experiment was human-executed. Programs, meanwhile, never co-occur with human review, LLM-as-judge, wet lab or partial human involvement. Association measures (lift, PMI) are deliberately not reported: at n=15 they are dominated by single coding decisions.
+
+**Three caveats bound every number above.**
+
+- The subset **under-samples wet-lab systems**: 27% of coded rows reach physical or *in vitro* validation, against 54% of the systems that could not be read. Execution-based verification is over-represented by construction.
+- **Empty cells are not evidence of absence.** `logical` representation appears in 0 of the 8 rows where representation could be coded — but Adam, the one logical-representation system here, is among those that could not be read. That zero measures access, not design.
+- **Single coder, no reliability estimate.** These codings have not been double-coded and no agreement statistic is reported. Treat them as a structured reading, not as a measurement.
 
 ---
 
