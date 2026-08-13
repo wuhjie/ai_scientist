@@ -10,32 +10,6 @@ A critical review and verified catalogue of **LLM-based systems for autonomous a
 
 ---
 
-## What this review finds
-
-Three statements, each a **count over the catalogue below** rather than an assessment of any system.
-
-**1. Validation is overwhelmingly author-side.** The *Checked by* column of [§3](#3-systems-at-a-glance) records who performed each system's reported validation:
-
-| Checking party | Systems |
-|---|---|
-| The authors | **18** |
-| Collaborating labs | 1 — Co-Scientist |
-| An external leaderboard | 1 — ERA |
-| An unconnected third party | 2 — AI Scientist v1, Kosmos |
-| Not recorded | 5 |
-
-ERA is the only entry scored by a party that did not build it, against a standard that existed beforehand.
-
-**2. Independent re-testing is rare, and so far unfavourable.** Three systems have been re-tested or independently evaluated by an unconnected group — Kosmos, A-Lab and AI Scientist v1. In all three the verdict came back partly or wholly negative ([§6](#6-critical-evaluations--audits)).
-
-> The table above counts **2** third-party entries while this count is **3**, because the two answer different questions. The table records who performed a system's *own reported* validation; A-Lab's was author-run and was *subsequently* contested by an outside reanalysis, so it appears under "the authors" there and among the three re-tests here.
-
-**3. The benchmarks cannot see either of the above.** Almost every benchmark in [§7](#7-benchmarks) scores outcomes. The audits in §6 report agents reaching correct results through reasoning that does not generalise — a failure outcome metrics do not detect. Process-level alternatives appeared in 2026, but none has yet been used to re-score the systems in [§2](#2-systems-by-subfield).
-
-These are claims about the published record at the verification date, not about whether the systems work. Corrections welcome — see [Contributing](#contributing).
-
----
-
 ## The field at a glance
 
 ![The AI Scientist family — pre-LLM discovery systems in a band above an era break, then 29 LLM-era entries grouped into five subfield branches, each node marked with how strongly it was validated and daggered where an unconnected group has re-tested it; below, the hypothesis-representation → loop-closure → validation cycle together with the "checked by" axis, all from §3](assets/ai-scientist-family-tree.svg)
@@ -50,19 +24,27 @@ Sections [1](#1-classical-foundations-pre-llm)–[3](#3-systems-at-a-glance) as 
 
 ## Contents
 
-- [What this review finds](#what-this-review-finds)
-- [The field at a glance](#the-field-at-a-glance)
-- [How to read this review](#how-to-read-this-review)
-- [1. Classical foundations (pre-LLM)](#1-classical-foundations-pre-llm)
-- [2. Systems by subfield](#2-systems-by-subfield)
-- [3. Systems at a glance](#3-systems-at-a-glance)
-  - [Structural analysis of a 15-system subset](#structural-analysis-of-a-15-system-subset)
-- [4. Reasoning & verification substrate](#4-reasoning--verification-substrate)
-- [5. Evidence, attribution & claim verification](#5-evidence-attribution--claim-verification)
-- [6. Critical evaluations & audits](#6-critical-evaluations--audits)
-- [7. Benchmarks](#7-benchmarks)
-- [8. Surveys & agenda papers](#8-surveys--agenda-papers)
-- [Verification policy](#verification-policy)
+- [AI Scientist Review](#ai-scientist-review)
+  - [The field at a glance](#the-field-at-a-glance)
+  - [Contents](#contents)
+  - [How to read this review](#how-to-read-this-review)
+  - [1. Classical foundations (pre-LLM)](#1-classical-foundations-pre-llm)
+  - [2. Systems by subfield](#2-systems-by-subfield)
+    - [General / cross-domain frameworks](#general--cross-domain-frameworks)
+    - [Biology / life sciences](#biology--life-sciences)
+    - [Lab automation / self-driving labs (LLM-driven)](#lab-automation--self-driving-labs-llm-driven)
+    - [ML / CS self-research](#ml--cs-self-research)
+    - [Chemistry / materials](#chemistry--materials)
+  - [3. Systems at a glance](#3-systems-at-a-glance)
+    - [Structural analysis of a 15-system subset](#structural-analysis-of-a-15-system-subset)
+  - [4. Reasoning \& verification substrate](#4-reasoning--verification-substrate)
+  - [5. Evidence, attribution \& claim verification](#5-evidence-attribution--claim-verification)
+  - [6. Critical evaluations \& audits](#6-critical-evaluations--audits)
+    - [How much of this has been independently re-tested?](#how-much-of-this-has-been-independently-re-tested)
+  - [7. Benchmarks](#7-benchmarks)
+  - [8. Surveys \& agenda papers](#8-surveys--agenda-papers)
+  - [Verification policy](#verification-policy)
+    - [Contributing](#contributing)
 
 ---
 
