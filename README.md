@@ -1,10 +1,38 @@
-# AI Scientist Survey
+# AI Scientist Review
 
-A curated survey of **LLM-based systems for autonomous and semi-autonomous scientific discovery** — AI Scientists, scientific agents, self-driving labs — together with the reasoning, verification and evaluation literature they depend on.
+A critical review and verified catalogue of **LLM-based systems for autonomous and semi-autonomous scientific discovery** — AI Scientists, scientific agents, self-driving labs — organised around one question: **what has actually been verified, and who verified it?** Includes the reasoning, verification and evaluation literature these systems depend on.
 
-**Last updated: 29 July 2026.** Venues are re-verified on each update; see [Verification policy](#verification-policy). This refresh moved HoneyComb and AstaBench out of `[preprint]`, added a *Checked by* axis to [§3](#3-systems-at-a-glance), added the process-supervision and citation-verification work in [§4](#4-reasoning--verification-substrate)–[§5](#5-evidence-attribution--claim-verification), and added a [structural analysis](#structural-analysis-of-a-15-system-subset) of a 15-system subset coded from the papers themselves.
+**Venues last verified: 29 July 2026.** Venues are re-verified on each such update; see [Verification policy](#verification-policy). That refresh moved HoneyComb and AstaBench out of `[preprint]`, added a *Checked by* axis to [§3](#3-systems-at-a-glance), added the process-supervision and citation-verification work in [§4](#4-reasoning--verification-substrate)–[§5](#5-evidence-attribution--claim-verification), and added a [structural analysis](#structural-analysis-of-a-15-system-subset) of a 15-system subset coded from the papers themselves.
 
-> **Why another list?** Most survey repos in this space link to preprints that have since been peer-reviewed, and organise purely by application domain. This one tracks **canonical venues** (a large fraction of this field's headline systems are now in *Nature*, *Science* or *Nature Machine Intelligence*, not on arXiv) and adds three sections that domain-organised lists usually omit: the **pre-LLM discovery systems**, the **reasoning/verification substrate**, and the **critical evaluations** of AI Scientists.
+*Framing and denominators revised 13 August 2026. No venue re-check was performed on that date, so every `[preprint]` tag still dates from 29 July.*
+
+> **Why another list?** Most repos in this space link to preprints that have since been peer-reviewed, and organise purely by application domain. This one tracks **canonical venues** (a large fraction of this field's headline systems are now in *Nature*, *Science* or *Nature Machine Intelligence*, not on arXiv), records **who performed each validation** rather than only whether one happened, and adds three sections that domain-organised lists usually omit: the **pre-LLM discovery systems**, the **reasoning/verification substrate**, and the **critical evaluations** of AI Scientists.
+
+---
+
+## What this review finds
+
+Three statements, each a **count over the catalogue below** rather than an assessment of any system.
+
+**1. Validation is overwhelmingly author-side.** The *Checked by* column of [§3](#3-systems-at-a-glance) records who performed each system's reported validation:
+
+| Checking party | Systems |
+|---|---|
+| The authors | **18** |
+| Collaborating labs | 1 — Co-Scientist |
+| An external leaderboard | 1 — ERA |
+| An unconnected third party | 2 — AI Scientist v1, Kosmos |
+| Not recorded | 5 |
+
+ERA is the only entry scored by a party that did not build it, against a standard that existed beforehand.
+
+**2. Independent re-testing is rare, and so far unfavourable.** Three systems have been re-tested or independently evaluated by an unconnected group — Kosmos, A-Lab and AI Scientist v1. In all three the verdict came back partly or wholly negative ([§6](#6-critical-evaluations--audits)).
+
+> The table above counts **2** third-party entries while this count is **3**, because the two answer different questions. The table records who performed a system's *own reported* validation; A-Lab's was author-run and was *subsequently* contested by an outside reanalysis, so it appears under "the authors" there and among the three re-tests here.
+
+**3. The benchmarks cannot see either of the above.** Almost every benchmark in [§7](#7-benchmarks) scores outcomes. The audits in §6 report agents reaching correct results through reasoning that does not generalise — a failure outcome metrics do not detect. Process-level alternatives appeared in 2026, but none has yet been used to re-score the systems in [§2](#2-systems-by-subfield).
+
+These are claims about the published record at the verification date, not about whether the systems work. Corrections welcome — see [Contributing](#contributing).
 
 ---
 
@@ -16,14 +44,15 @@ Sections [1](#1-classical-foundations-pre-llm)–[3](#3-systems-at-a-glance) as 
 
 **Node marks** are the Validation column of [§3](#3-systems-at-a-glance): ● checked outside the model (*in vitro* or physical synthesis) · ◐ benchmark, leaderboard or held-out data · ○ partial, as reported · no mark, none reported. **†** marks the three systems an unconnected group has re-tested — AI Scientist, Kosmos and A-Lab — where in each case the verdict came back partly or wholly negative ([§6](#6-critical-evaluations--audits)).
 
-**Arrows** mark *only* the lineages this survey states: Adam → the Adam/Eve programme, and AlphaEvolve extending FunSearch. Columns are subfield groupings, not shared descent, and §1 is context rather than ancestry.
+**Arrows** mark *only* the lineages this review states: Adam → the Adam/Eve programme, and AlphaEvolve extending FunSearch. Columns are subfield groupings, not shared descent, and §1 is context rather than ancestry.
 
 ---
 
 ## Contents
 
+- [What this review finds](#what-this-review-finds)
 - [The field at a glance](#the-field-at-a-glance)
-- [How to read this survey](#how-to-read-this-survey)
+- [How to read this review](#how-to-read-this-review)
 - [1. Classical foundations (pre-LLM)](#1-classical-foundations-pre-llm)
 - [2. Systems by subfield](#2-systems-by-subfield)
 - [3. Systems at a glance](#3-systems-at-a-glance)
@@ -37,9 +66,9 @@ Sections [1](#1-classical-foundations-pre-llm)–[3](#3-systems-at-a-glance) as 
 
 ---
 
-## How to read this survey
+## How to read this review
 
-Section 2 organises systems by **application domain**, which is how most people search. Section 3 re-cuts the same systems along three **cross-cutting axes** that domain tables hide:
+Section 2 organises systems by **application domain**, which is how most people search. Section 3 re-cuts the same systems along four **cross-cutting axes** that domain tables hide:
 
 | Axis | Question | Values used here |
 |---|---|---|
@@ -162,7 +191,9 @@ Included because these systems had **explicit hypothesis representations and exp
 
 ## 3. Systems at a glance
 
-The same systems, re-cut along the axes from [How to read this survey](#how-to-read-this-survey). This table now covers every system in [§2](#2-systems-by-subfield) except **Agon**, whose public record is currently too thin to code; the agenda paper and MLE-bench are excluded because neither is a discovery system.
+The same systems, re-cut along the axes from [How to read this review](#how-to-read-this-review).
+
+**What this table's 27 rows are.** [§2](#2-systems-by-subfield) lists **29 entries**. Two are excluded here because neither is a discovery system — the agenda paper *Empowering biomedical discovery* and the MLE-bench benchmark — leaving **27 discovery systems**. **Agon** is dropped from those, its public record being too thin to code, and **Robot Scientist Adam** is carried down from [§1](#1-classical-foundations-pre-llm) as the pre-LLM reference point. So this table's 27 rows and §2's 27 discovery systems have the same size and are **not the same set**.
 
 **"Checked by" is the axis most often collapsed.** *Validation* records what kind of check was performed; *Checked by* records who performed it. A wet-lab result produced by the authors' own laboratory and a score on a leaderboard maintained by a third party are both "validated" in most tables, and they are not the same evidence. Where a coding is not supported by the cited record, the cell reads `not reported` rather than being inferred.
 
@@ -276,11 +307,11 @@ The fastest-moving part of this field as of mid-2026, and the least covered by o
 
 ### How much of this has been independently re-tested?
 
-Counting only cases where a group **unconnected to the original authors** re-tested or independently evaluated a released system, this survey currently finds **three**: the Kosmos radiation-biology evaluation, the A-Lab characterisation reanalysis, and the *SIGIR Forum* evaluation of AI Scientist v1.
+Counting only cases where a group **unconnected to the original authors** re-tested or independently evaluated a released system, this review currently finds **three**: the Kosmos radiation-biology evaluation, the A-Lab characterisation reanalysis, and the *SIGIR Forum* evaluation of AI Scientist v1.
 
 In all three the third party's verdict was partly or wholly negative — one of three Kosmos hypotheses upheld, A-Lab's space-group assignments questioned, a 42% experiment failure rate in AI Scientist v1. The *Checked by* column in [§3](#3-systems-at-a-glance) carries these outcomes rather than recording a bare "third party", since an external check is not the same as external corroboration.
 
-Those three re-tests cover three distinct systems — Kosmos, A-Lab and AI Scientist — out of the 27 systems catalogued in [§2](#2-systems-by-subfield), 17 of which carry a peer-reviewed venue.
+Those three re-tests cover three distinct systems — Kosmos, A-Lab and AI Scientist — out of the **27 discovery systems** catalogued in [§2](#2-systems-by-subfield), 17 of which carry a peer-reviewed venue. (§2 lists 29 entries; the agenda paper and MLE-bench are excluded from the denominator because neither is a discovery system — the same rule stated in [§3](#3-systems-at-a-glance).)
 
 This is worth separating from a larger figure often quoted alongside it: several systems report **wet-lab validation**, but in the published record those experiments were run by the authors or their collaborators — Co-Scientist's three validations in partner labs, Virtual Lab's 92 nanobodies, Robin's *ripasudil*/KL001 assays, CRISPR-GPT's knockouts. That is author-side validation, which is a different evidential category from third-party replication. ERA is the closest thing to an external check by construction, since a public leaderboard is scored by someone else against a pre-existing standard.
 
