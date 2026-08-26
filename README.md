@@ -12,13 +12,19 @@ A critical review and verified catalogue of **LLM-based systems for autonomous a
 
 ## The field at a glance
 
-![The AI Scientist family — pre-LLM discovery systems in a band above an era break, then 29 LLM-era entries grouped into five subfield branches, each node marked with how strongly it was validated and daggered where an unconnected group has re-tested it; below, the hypothesis-representation → loop-closure → validation cycle together with the "checked by" axis, all from §3](assets/ai-scientist-family-tree.svg)
+![Landscape of AI-enabled scientific-discovery systems — four classical discovery programmes and two foundational publications above an era break, then 27 contemporary systems in seven application-area panels, each card recording autonomy, experiment executor and evidence type; benchmarks and agenda papers held in a separate non-system panel](assets/ai-scientist-landscape.svg)
 
-Sections [1](#1-classical-foundations-pre-llm)–[3](#3-systems-at-a-glance) as one picture.
+Sections [1](#1-classical-foundations-pre-llm)–[3](#3-systems-at-a-glance) as one picture. Regenerate with `python3 assets/make_landscape.py`.
 
-**Node marks** are the Validation column of [§3](#3-systems-at-a-glance): ● checked outside the model (*in vitro* or physical synthesis) · ◐ benchmark, leaderboard or held-out data · ○ partial, as reported · no mark, none reported. **†** marks the three systems an unconnected group has re-tested — AI Scientist, Kosmos and A-Lab — where in each case the verdict came back partly or wholly negative ([§6](#6-critical-evaluations--audits)).
+**Panels are categories, not lineages.** Position, column and adjacency carry no claim of descent. Cards are ordered by year within a panel, ties alphabetical.
 
-**Arrows** mark *only* the lineages this review states: Adam → the Adam/Eve programme, and AlphaEvolve extending FunSearch. Columns are subfield groupings, not shared descent, and §1 is context rather than ancestry.
+**Each card carries three fields** rather than a single validation mark: *autonomy* — degree of independent loop execution; *executor* — who or what performed the experiment or evaluation; *evidence* — the strongest reported validation type. Autonomy reads `not assessed` where this review has not classified it, which is the case for 11 of the 27 contemporary systems.
+
+**Relations are drawn in three weights, each labelled.** Solid for a link the authors themselves state — Adam → *The Automation of Science*, and AlphaEvolve generalising FunSearch. Dashed for a documented citation — DENDRAL and *Scientific Discovery* → Adam. Dotted for a conceptual resemblance with no citation established — BACON and KEKADA → Adam. Nothing else is connected.
+
+**Non-system entries are held separate.** The *Cell* agenda paper and MLE-bench sit in their own panel and are excluded from every system ratio, the same rule [§3](#3-systems-at-a-glance) applies. The figure holds 27 contemporary systems, 4 classical systems, 2 non-system entries and 2 foundational publications.
+
+The figure’s panels differ from [§2](#2-systems-by-subfield)’s subfield tables in three places: PaperQA2 sits under literature and evidence synthesis rather than biology, LLM-SR under program and equation discovery rather than chemistry/materials, and the agenda paper and benchmark are held out as non-system entries.
 
 ---
 
