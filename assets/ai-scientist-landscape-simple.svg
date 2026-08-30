@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="799" viewBox="0 0 1400 799" role="img" aria-labelledby="t d" font-family='system-ui, -apple-system, "Segoe UI", Roboto, sans-serif'>
+<title id="t">Landscape of AI-enabled scientific-discovery systems</title>
+<desc id="d">Systems grouped by application area, with venues. Panels are categories, not lineages.</desc>
+<rect width="1400" height="799" fill="#fcfcfb"/>
+<text x="40" y="46" font-size="22" fill="#0b0b0b" font-weight="700" text-anchor="start">Landscape of AI-enabled scientific-discovery systems</text>
+<text x="40" y="68" font-size="11.5" fill="#52514e" font-weight="400" text-anchor="start">Grouped by application area. Panels are categories, not lineages — position and adjacency carry no claim of descent. Venues as verified 29 July 2026.</text>
+<rect x="24" y="92" width="1352" height="141" rx="10" fill="#f4f3ef"/>
+<text x="40" y="116" font-size="10.5" fill="#52514e" font-weight="700" text-anchor="start">CLASSICAL DISCOVERY PROGRAMMES (PRE-LLM)</text>
+<text x="1360" y="116" font-size="10.5" fill="#898781" font-weight="600" text-anchor="end">4 systems · 2 publications</text>
+<line x1="40" y1="124" x2="1360" y2="124" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="40" y="138" width="315" height="36" rx="6" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<text x="51" y="154" font-size="11.5" fill="#0b0b0b" font-weight="600" text-anchor="start">DENDRAL</text>
+<text x="51" y="167" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">1965– · Stanford</text>
+<rect x="375" y="138" width="315" height="36" rx="6" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<text x="386" y="154" font-size="11.5" fill="#0b0b0b" font-weight="600" text-anchor="start">BACON</text>
+<text x="386" y="167" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">Langley et al., 1981</text>
+<rect x="710" y="138" width="315" height="36" rx="6" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<text x="721" y="154" font-size="11.5" fill="#0b0b0b" font-weight="600" text-anchor="start">KEKADA</text>
+<text x="721" y="167" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">Kulkarni &amp; Simon, 1988</text>
+<rect x="1045" y="138" width="315" height="36" rx="6" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<text x="1056" y="154" font-size="11.5" fill="#0b0b0b" font-weight="600" text-anchor="start">Robot Scientist “Adam”</text>
+<text x="1056" y="167" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">Nature 427:247–252 (2004)</text>
+<rect x="40" y="181" width="315" height="36" rx="6" fill="none" stroke="#e1e0d9" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="51" y="197" font-size="11.5" fill="#0b0b0b" font-weight="600" text-anchor="start">Scientific Discovery</text>
+<text x="51" y="210" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">Langley, Simon, Bradshaw &amp; Żytkow, MIT Press 1987</text>
+<rect x="375" y="181" width="315" height="36" rx="6" fill="none" stroke="#e1e0d9" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="386" y="197" font-size="11.5" fill="#0b0b0b" font-weight="600" text-anchor="start">The Automation of Science</text>
+<text x="386" y="210" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">King et al., Science 324:85–89 (2009)</text>
+<text x="710" y="204" font-size="9" fill="#898781" font-weight="400" text-anchor="start" font-style="italic">Publications, held separate from systems.</text>
+<line x1="40" y1="259" x2="1360" y2="259" stroke="#c3c2b7" stroke-width="1" stroke-dasharray="4 5"/>
+<rect x="470" y="251" width="460" height="16" fill="#fcfcfb"/>
+<text x="700" y="263" font-size="10" fill="#898781" font-weight="600" text-anchor="middle">─  contemporary systems · LLM agents, program search &amp; autonomous labs  ─</text>
+<rect x="40" y="285" width="315" height="348" rx="8" fill="#f4f3ef"/>
+<text x="52" y="307" font-size="10.5" fill="#52514e" font-weight="700" text-anchor="start">GENERAL / CROSS-DOMAIN RESEARCH AGENTS</text>
+<text x="343" y="307" font-size="10.5" fill="#898781" font-weight="600" text-anchor="end">7</text>
+<line x1="52" y1="314" x2="343" y2="314" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="40" y="327" width="315" height="36" rx="6" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<text x="51" y="343" font-size="11.5" fill="#0b0b0b" font-weight="600" text-anchor="start">Agent Laboratory</text>
+<text x="51" y="356" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">Findings of EMNLP 2025</text>
+<rect x="40" y="370" width="315" height="36" rx="6" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<text x="51" y="386" font-size="11.5" fill="#0b0b0b" font-weight="600" text-anchor="start">Kosmos</text>
+<text x="51" y="399" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">preprint, arXiv 2511.02824 (2025)</text>
+<rect x="40" y="413" width="315" height="36" rx="6" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<text x="51" y="429" font-size="11.5" fill="#0b0b0b" font-weight="600" text-anchor="start">Agon</text>
+<text x="51" y="442" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">preprint, arXiv 2606.24177 (2026)</text>
+<rect x="40" y="456" width="315" height="36" rx="6" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<text x="51" y="472" font-size="11.5" fill="#0b0b0b" font-weight="600" text-anchor="start">Co-Scientist</text>
+<text x="51" y="485" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">Nature 655:487–496 (2026)</text>
+<rect x="40" y="499" width="315" height="36" rx="6" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<text x="51" y="515" font-size="11.5" fill="#0b0b0b" font-weight="600" text-anchor="start">ERA</text>
+<text x="51" y="528" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">Nature 654:909–916 (2026)</text>
+<rect x="40" y="542" width="315" height="36" rx="6" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<text x="51" y="558" font-size="11.5" fill="#0b0b0b" font-weight="600" text-anchor="start">SCION</text>
+<text x="51" y="571" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">preprint, arXiv 2607.03863 (2026)</text>
+<rect x="40" y="585" width="315" height="36" rx="6" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<text x="51" y="601" font-size="11.5" fill="#0b0b0b" font-weight="600" text-anchor="start">The AI Scientist</text>
+<text x="51" y="614" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">Nature 651:914–919 (2026)</text>
+<rect x="40" y="655" width="315" height="90" rx="8" fill="#f4f3ef"/>
+<text x="52" y="677" font-size="10.5" fill="#52514e" font-weight="700" text-anchor="start">LITERATURE &amp; EVIDENCE SYNTHESIS</text>
+<text x="343" y="677" font-size="10.5" fill="#898781" font-weight="600" text-anchor="end">1</text>
+<line x1="52" y1="684" x2="343" y2="684" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="40" y="697" width="315" height="36" rx="6" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<text x="51" y="713" font-size="11.5" fill="#0b0b0b" font-weight="600" text-anchor="start">PaperQA2</text>
+<text x="51" y="726" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">preprint, arXiv 2409.13740 (2024)</text>
+<rect x="375" y="285" width="315" height="262" rx="8" fill="#f4f3ef"/>
+<text x="387" y="307" font-size="10.5" fill="#52514e" font-weight="700" text-anchor="start">CHEMISTRY / MATERIALS AGENTS</text>
+<text x="678" y="307" font-size="10.5" fill="#898781" font-weight="600" text-anchor="end">5</text>
+<line x1="387" y1="314" x2="678" y2="314" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="375" y="327" width="315" height="36" rx="6" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<text x="386" y="343" font-size="11.5" fill="#0b0b0b" font-weight="600" text-anchor="start">ChemCrow</text>
+<text x="386" y="356" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">Nature Mach. Intell. 6 (2024)</text>
+<rect x="375" y="370" width="315" height="36" rx="6" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<text x="386" y="386" font-size="11.5" fill="#0b0b0b" font-weight="600" text-anchor="start">HoneyComb</text>
+<text x="386" y="399" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">Findings of EMNLP 2024</text>
+<rect x="375" y="413" width="315" height="36" rx="6" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<text x="386" y="429" font-size="11.5" fill="#0b0b0b" font-weight="600" text-anchor="start">LLMatDesign</text>
+<text x="386" y="442" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">preprint, arXiv 2406.13163 (2024)</text>
+<rect x="375" y="456" width="315" height="36" rx="6" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<text x="386" y="472" font-size="11.5" fill="#0b0b0b" font-weight="600" text-anchor="start">ChemAgents</text>
+<text x="386" y="485" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">JACS 147(15):12534–12545 (2025)</text>
+<rect x="375" y="499" width="315" height="36" rx="6" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<text x="386" y="515" font-size="11.5" fill="#0b0b0b" font-weight="600" text-anchor="start">SciAgents</text>
+<text x="386" y="528" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">Advanced Materials (2025)</text>
+<rect x="375" y="569" width="315" height="176" rx="8" fill="#f4f3ef"/>
+<text x="387" y="591" font-size="10.5" fill="#52514e" font-weight="700" text-anchor="start">ML ENGINEERING SELF-RESEARCH</text>
+<text x="678" y="591" font-size="10.5" fill="#898781" font-weight="600" text-anchor="end">3</text>
+<line x1="387" y1="598" x2="678" y2="598" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="375" y="611" width="315" height="36" rx="6" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<text x="386" y="627" font-size="11.5" fill="#0b0b0b" font-weight="600" text-anchor="start">AIDE</text>
+<text x="386" y="640" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">preprint, arXiv 2502.13138 (2025)</text>
+<rect x="375" y="654" width="315" height="36" rx="6" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<text x="386" y="670" font-size="11.5" fill="#0b0b0b" font-weight="600" text-anchor="start">MLE-STAR</text>
+<text x="386" y="683" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">preprint, arXiv 2506.15692 (2025)</text>
+<rect x="375" y="697" width="315" height="36" rx="6" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<text x="386" y="713" font-size="11.5" fill="#0b0b0b" font-weight="600" text-anchor="start">Zochi</text>
+<text x="386" y="726" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">company blog (2025)</text>
+<rect x="710" y="285" width="315" height="219" rx="8" fill="#f4f3ef"/>
+<text x="722" y="307" font-size="10.5" fill="#52514e" font-weight="700" text-anchor="start">BIOLOGY / LIFE SCIENCES</text>
+<text x="1013" y="307" font-size="10.5" fill="#898781" font-weight="600" text-anchor="end">4</text>
+<line x1="722" y1="314" x2="1013" y2="314" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="710" y="327" width="315" height="36" rx="6" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<text x="721" y="343" font-size="11.5" fill="#0b0b0b" font-weight="600" text-anchor="start">Virtual Lab</text>
+<text x="721" y="356" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">Nature 646:716–723 (2025)</text>
+<rect x="710" y="370" width="315" height="36" rx="6" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<text x="721" y="386" font-size="11.5" fill="#0b0b0b" font-weight="600" text-anchor="start">Biomni</text>
+<text x="721" y="399" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">Science (2026)</text>
+<rect x="710" y="413" width="315" height="36" rx="6" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<text x="721" y="429" font-size="11.5" fill="#0b0b0b" font-weight="600" text-anchor="start">CRISPR-GPT</text>
+<text x="721" y="442" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">Nat. Biomed. Eng. 10(2) (2026)</text>
+<rect x="710" y="456" width="315" height="36" rx="6" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<text x="721" y="472" font-size="11.5" fill="#0b0b0b" font-weight="600" text-anchor="start">Robin</text>
+<text x="721" y="485" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">Nature 655:497–505 (2026)</text>
+<rect x="710" y="526" width="315" height="219" rx="8" fill="#f4f3ef"/>
+<text x="722" y="548" font-size="10.5" fill="#52514e" font-weight="700" text-anchor="start">SELF-DRIVING LABS</text>
+<text x="1013" y="548" font-size="10.5" fill="#898781" font-weight="600" text-anchor="end">4</text>
+<line x1="722" y1="555" x2="1013" y2="555" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="710" y="568" width="315" height="36" rx="6" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<text x="721" y="584" font-size="11.5" fill="#0b0b0b" font-weight="600" text-anchor="start">A-Lab</text>
+<text x="721" y="597" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">Nature (2023)</text>
+<rect x="710" y="611" width="315" height="36" rx="6" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<text x="721" y="627" font-size="11.5" fill="#0b0b0b" font-weight="600" text-anchor="start">Coscientist</text>
+<text x="721" y="640" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">Nature 624:570–578 (2023)</text>
+<rect x="710" y="654" width="315" height="36" rx="6" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<text x="721" y="670" font-size="11.5" fill="#0b0b0b" font-weight="600" text-anchor="start">Autonomous mobile robots</text>
+<text x="721" y="683" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">Cooper et al., Nature (2024)</text>
+<rect x="710" y="697" width="315" height="36" rx="6" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<text x="721" y="713" font-size="11.5" fill="#0b0b0b" font-weight="600" text-anchor="start">RoboChem</text>
+<text x="721" y="726" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">Science (2024)</text>
+<rect x="1045" y="285" width="315" height="176" rx="8" fill="#f4f3ef"/>
+<text x="1057" y="307" font-size="10.5" fill="#52514e" font-weight="700" text-anchor="start">PROGRAM &amp; EQUATION DISCOVERY</text>
+<text x="1348" y="307" font-size="10.5" fill="#898781" font-weight="600" text-anchor="end">3</text>
+<line x1="1057" y1="314" x2="1348" y2="314" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="1045" y="327" width="315" height="36" rx="6" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<text x="1056" y="343" font-size="11.5" fill="#0b0b0b" font-weight="600" text-anchor="start">FunSearch</text>
+<text x="1056" y="356" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">Nature 625 (2024)</text>
+<rect x="1045" y="370" width="315" height="36" rx="6" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<text x="1056" y="386" font-size="11.5" fill="#0b0b0b" font-weight="600" text-anchor="start">AlphaEvolve</text>
+<text x="1056" y="399" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">preprint, arXiv 2506.13131 (2025)</text>
+<rect x="1045" y="413" width="315" height="36" rx="6" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<text x="1056" y="429" font-size="11.5" fill="#0b0b0b" font-weight="600" text-anchor="start">LLM-SR</text>
+<text x="1056" y="442" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">ICLR 2025 (Oral)</text>
+<rect x="1045" y="483" width="315" height="133" rx="8" fill="#f4f3ef"/>
+<text x="1057" y="505" font-size="10.5" fill="#52514e" font-weight="700" text-anchor="start">NON-SYSTEM ENTRIES</text>
+<text x="1348" y="505" font-size="10.5" fill="#898781" font-weight="600" text-anchor="end">2</text>
+<line x1="1057" y1="512" x2="1348" y2="512" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="1045" y="525" width="315" height="36" rx="6" fill="none" stroke="#e1e0d9" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="1056" y="541" font-size="11.5" fill="#0b0b0b" font-weight="600" text-anchor="start">Empowering biomedical discovery</text>
+<text x="1056" y="554" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">Zitnik lab, Cell (2024)</text>
+<rect x="1045" y="568" width="315" height="36" rx="6" fill="none" stroke="#e1e0d9" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="1056" y="584" font-size="11.5" fill="#0b0b0b" font-weight="600" text-anchor="start">MLE-bench</text>
+<text x="1056" y="597" font-size="9.5" fill="#898781" font-weight="400" text-anchor="start">ICLR 2025 (Oral) · OpenAI</text>
+<text x="40" y="775" font-size="9.6" fill="#52514e" font-weight="400" text-anchor="start">27 contemporary systems · 4 classical systems · 2 non-system entries · 2 foundational publications.</text>
+</svg>
