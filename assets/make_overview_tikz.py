@@ -15,16 +15,16 @@ import os
 
 STAGES = ["Represented hypothesis", "Experiment / evaluation", "Evidence",
           "Retention $\\cdot$ revision $\\cdot$ rejection"]
-MODES = [("C0", "no demonstrated closure"), ("C1", "self-critique"),
-         ("C2", "multi-agent critique or selection"), ("C3", "executable evaluation"),
-         ("C4", "statistical adjudication"), ("C5", "empirical feedback"),
-         ("C6", "formal verification")]
+MODES = [("E0", "none demonstrated"), ("E1", "executable outcome"),
+         ("E2", "statistical evidence"), ("E3", "empirical measurement"),
+         ("E4", "formal constraint")]
 
 BW, BH, STEP = 150.0, 24.0, 40.0
-CX = 87.0                      # centre of the stage column
-RX = CX - BW / 2 - 26          # x of the return edge
+CX = 122.0                     # centre of the stage column (leaves room for axis tags)
+RX = CX - BW / 2 - 40          # x of the return edge
 PX, PW = 232.0, 219.0          # modes panel (right edge 451 < 453 = ACL textwidth)
 ys = [-(20 + i * STEP) for i in range(4)]
+AXIS = {0: r"\\S3.1 $R$", 1: r"\\S3.2 $E$", 3: r"\\S3.3 $U$"}
 
 L = []
 def o(s): L.append(s)
@@ -45,11 +45,14 @@ o(r"  panel/.style={draw=lprule, line width=0.7pt, rounded corners=3pt},")
 o(r"  lbl/.style={font=\fontsize{6.2}{7}\selectfont, text=lpacc},")
 o(r"  mode/.style={anchor=west, font=\fontsize{7.4}{8}\selectfont, text=lpink},")
 o(r"  rung/.style={anchor=west, font=\fontsize{6.4}{7}\bfseries\selectfont, text=lpgrey},")
-o(r"  head/.style={anchor=west, font=\fontsize{6.6}{7}\bfseries\selectfont, text=lpmid}}")
+o(r"  head/.style={anchor=west, font=\fontsize{6.6}{7}\bfseries\selectfont, text=lpmid},\n"
+  r"  axistag/.style={font=\fontsize{5.8}{6.4}\selectfont, text=lpacc}}")
 o(r"\begin{tikzpicture}[x=1pt,y=1pt]")
 
 for i, (s, y) in enumerate(zip(STAGES, ys)):
     o(f"  \\node[stage] (s{i}) at ({CX:.1f}pt,{y:.1f}pt) {{{s}}};")
+    if i in AXIS:
+        o(f"  \\node[axistag, anchor=east] at ({CX-BW/2-4:.1f}pt,{y:.1f}pt) {{{AXIS[i]}}};")
 for i in range(3):
     o(f"  \\draw[flow] (s{i}.south) -- (s{i+1}.north);")
 
@@ -74,8 +77,8 @@ o(r"\endgroup")
 o(r"\caption{The discovery loop, and what may close it. A represented hypothesis is put to an "
   r"experiment or evaluation, which yields evidence, which is acted on by retaining, revising or "
   r"rejecting the hypothesis. The seven mechanisms that can play the role of experiment or "
-  r"evaluation are listed beside that stage, using the coding of Section~\\ref{sec:loopclosure}; "
-  r"they are not ordered, and one system may combine several. A hypothesis that is not represented "
+  r"evaluation are listed beside that stage, using the coding of Section~\\ref{sec:loopclosure}; they are not "
+  r"ordered, and one system may combine several. Marginal tags name the axis each stage is coded on. A hypothesis that is not represented "
   r"cannot be revised on evidence, so the return edge is the part of the cycle that a system's "
   r"representation determines.}")
 o(r"\label{fig:loop}")

@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="516" height="194" viewBox="0 0 516 194" role="img" aria-labelledby="t d" font-family="Helvetica, Arial, sans-serif">
+<title id="t">AI Scientist systems by hypothesis representation, validation and checking party</title>
+<desc id="d">Twenty-six LLM-era systems grouped by hypothesis representation rung. Each carries a validation mark and a letter naming the party that performed the check.</desc>
+<rect width="516" height="194" fill="#ffffff"/>
+<line x1="8" y1="8.0" x2="508" y2="8.0" stroke="#d8d7d0" stroke-width="0.5"/>
+<text x="8.0" y="17.0" font-size="7.2" fill="#2a78d6" font-weight="700" text-anchor="start">R4</text>
+<text x="8.0" y="25.0" font-size="5.6" fill="#898781" font-weight="400" text-anchor="start">logical, with entailment</text>
+<text x="70.0" y="17.0" font-size="6.4" fill="#9e3129" font-weight="400" text-anchor="start" font-style="italic">none in the LLM era</text>
+<text x="148.0" y="17.0" font-size="5.8" fill="#898781" font-weight="400" text-anchor="start" font-style="italic">Robot Scientist Adam (2004) is the only instance in the corpus</text>
+<line x1="8" y1="27.0" x2="508" y2="27.0" stroke="#d8d7d0" stroke-width="0.5"/>
+<text x="8.0" y="36.0" font-size="7.2" fill="#2a78d6" font-weight="700" text-anchor="start">R3</text>
+<text x="8.0" y="44.0" font-size="5.6" fill="#898781" font-weight="400" text-anchor="start">typed world model</text>
+<text x="70.0" y="36.0" font-size="6.2" fill="#0b0b0b">●</text>
+<text x="78.0" y="36.0" font-size="6.4" fill="#0b0b0b" font-weight="400" text-anchor="start">CRISPR-GPT</text>
+<text x="167.0" y="36.0" font-size="6.2" fill="#52514e" font-weight="700" text-anchor="end">A</text>
+<text x="179.0" y="36.0" font-size="6.2" fill="#52514e">○</text>
+<text x="187.0" y="36.0" font-size="6.4" fill="#0b0b0b" font-weight="400" text-anchor="start">Kosmos</text>
+<text x="276.0" y="36.0" font-size="6.2" fill="#9e3129" font-weight="700" text-anchor="end">T</text>
+<text x="288.0" y="36.0" font-size="6.2" fill="#52514e">○</text>
+<text x="296.0" y="36.0" font-size="6.4" fill="#0b0b0b" font-weight="400" text-anchor="start">LLMatDesign</text>
+<text x="385.0" y="36.0" font-size="6.2" fill="#9e3129" font-weight="700" text-anchor="end">?</text>
+<text x="397.0" y="36.0" font-size="6.2" fill="#0b0b0b">●</text>
+<text x="405.0" y="36.0" font-size="6.4" fill="#0b0b0b" font-weight="400" text-anchor="start">RoboChem</text>
+<text x="494.0" y="36.0" font-size="6.2" fill="#52514e" font-weight="700" text-anchor="end">A</text>
+<text x="70.0" y="46.4" font-size="6.2" fill="#52514e">○</text>
+<text x="78.0" y="46.4" font-size="6.4" fill="#0b0b0b" font-weight="400" text-anchor="start">SCION</text>
+<text x="167.0" y="46.4" font-size="6.2" fill="#9e3129" font-weight="700" text-anchor="end">?</text>
+<text x="179.0" y="46.4" font-size="6.2" fill="#52514e">○</text>
+<text x="187.0" y="46.4" font-size="6.4" fill="#0b0b0b" font-weight="400" text-anchor="start">SciAgents</text>
+<text x="276.0" y="46.4" font-size="6.2" fill="#9e3129" font-weight="700" text-anchor="end">?</text>
+<line x1="8" y1="54.8" x2="508" y2="54.8" stroke="#d8d7d0" stroke-width="0.5"/>
+<text x="8.0" y="63.8" font-size="7.2" fill="#2a78d6" font-weight="700" text-anchor="start">R2</text>
+<text x="8.0" y="71.8" font-size="5.6" fill="#898781" font-weight="400" text-anchor="start">program-as-hypothesis</text>
+<text x="70.0" y="63.8" font-size="6.2" fill="#0b0b0b">●</text>
+<text x="78.0" y="63.8" font-size="6.4" fill="#0b0b0b" font-weight="400" text-anchor="start">A-Lab</text>
+<text x="167.0" y="63.8" font-size="6.2" fill="#9e3129" font-weight="700" text-anchor="end">T</text>
+<text x="179.0" y="63.8" font-size="6.2" fill="#52514e">◐</text>
+<text x="187.0" y="63.8" font-size="6.4" fill="#0b0b0b" font-weight="400" text-anchor="start">AIDE</text>
+<text x="276.0" y="63.8" font-size="6.2" fill="#52514e" font-weight="700" text-anchor="end">A</text>
+<text x="288.0" y="63.8" font-size="6.2" fill="#52514e">◐</text>
+<text x="296.0" y="63.8" font-size="6.4" fill="#0b0b0b" font-weight="400" text-anchor="start">AlphaEvolve</text>
+<text x="385.0" y="63.8" font-size="6.2" fill="#52514e" font-weight="700" text-anchor="end">A</text>
+<text x="397.0" y="63.8" font-size="6.2" fill="#52514e">◐</text>
+<text x="405.0" y="63.8" font-size="6.4" fill="#0b0b0b" font-weight="400" text-anchor="start">ERA</text>
+<text x="494.0" y="63.8" font-size="6.2" fill="#52514e" font-weight="700" text-anchor="end">L</text>
+<text x="70.0" y="74.2" font-size="6.2" fill="#52514e">◐</text>
+<text x="78.0" y="74.2" font-size="6.4" fill="#0b0b0b" font-weight="400" text-anchor="start">FunSearch</text>
+<text x="167.0" y="74.2" font-size="6.2" fill="#52514e" font-weight="700" text-anchor="end">A</text>
+<text x="179.0" y="74.2" font-size="6.2" fill="#52514e">◐</text>
+<text x="187.0" y="74.2" font-size="6.4" fill="#0b0b0b" font-weight="400" text-anchor="start">LLM-SR</text>
+<text x="276.0" y="74.2" font-size="6.2" fill="#52514e" font-weight="700" text-anchor="end">A</text>
+<text x="288.0" y="74.2" font-size="6.2" fill="#52514e">◐</text>
+<text x="296.0" y="74.2" font-size="6.4" fill="#0b0b0b" font-weight="400" text-anchor="start">MLE-STAR</text>
+<text x="385.0" y="74.2" font-size="6.2" fill="#52514e" font-weight="700" text-anchor="end">A</text>
+<line x1="8" y1="82.6" x2="508" y2="82.6" stroke="#d8d7d0" stroke-width="0.5"/>
+<text x="8.0" y="91.6" font-size="7.2" fill="#2a78d6" font-weight="700" text-anchor="start">R1</text>
+<text x="8.0" y="99.6" font-size="5.6" fill="#898781" font-weight="400" text-anchor="start">natural language</text>
+<text x="70.0" y="91.6" font-size="6.2" fill="#52514e">◐</text>
+<text x="78.0" y="91.6" font-size="6.4" fill="#0b0b0b" font-weight="400" text-anchor="start">AI Scientist</text>
+<text x="167.0" y="91.6" font-size="6.2" fill="#9e3129" font-weight="700" text-anchor="end">T</text>
+<text x="179.0" y="91.6" font-size="6.2" fill="#52514e">○</text>
+<text x="187.0" y="91.6" font-size="6.4" fill="#0b0b0b" font-weight="400" text-anchor="start">Agent Laboratory</text>
+<text x="276.0" y="91.6" font-size="6.2" fill="#9e3129" font-weight="700" text-anchor="end">?</text>
+<text x="288.0" y="91.6" font-size="6.2" fill="#0b0b0b">●</text>
+<text x="296.0" y="91.6" font-size="6.4" fill="#0b0b0b" font-weight="400" text-anchor="start">Autonomous mobile ro</text>
+<text x="385.0" y="91.6" font-size="6.2" fill="#52514e" font-weight="700" text-anchor="end">A</text>
+<text x="397.0" y="91.6" font-size="6.2" fill="#52514e">◐</text>
+<text x="405.0" y="91.6" font-size="6.4" fill="#0b0b0b" font-weight="400" text-anchor="start">Biomni</text>
+<text x="494.0" y="91.6" font-size="6.2" fill="#52514e" font-weight="700" text-anchor="end">A</text>
+<text x="70.0" y="102.0" font-size="6.2" fill="#0b0b0b">●</text>
+<text x="78.0" y="102.0" font-size="6.4" fill="#0b0b0b" font-weight="400" text-anchor="start">ChemAgents</text>
+<text x="167.0" y="102.0" font-size="6.2" fill="#52514e" font-weight="700" text-anchor="end">A</text>
+<text x="179.0" y="102.0" font-size="6.2" fill="#0b0b0b">●</text>
+<text x="187.0" y="102.0" font-size="6.4" fill="#0b0b0b" font-weight="400" text-anchor="start">ChemCrow</text>
+<text x="276.0" y="102.0" font-size="6.2" fill="#52514e" font-weight="700" text-anchor="end">A</text>
+<text x="288.0" y="102.0" font-size="6.2" fill="#0b0b0b">●</text>
+<text x="296.0" y="102.0" font-size="6.4" fill="#0b0b0b" font-weight="400" text-anchor="start">Co-Scientist</text>
+<text x="385.0" y="102.0" font-size="6.2" fill="#52514e" font-weight="700" text-anchor="end">C</text>
+<text x="397.0" y="102.0" font-size="6.2" fill="#0b0b0b">●</text>
+<text x="405.0" y="102.0" font-size="6.4" fill="#0b0b0b" font-weight="400" text-anchor="start">Coscientist</text>
+<text x="494.0" y="102.0" font-size="6.2" fill="#52514e" font-weight="700" text-anchor="end">A</text>
+<text x="70.0" y="112.4" font-size="6.2" fill="#52514e">◐</text>
+<text x="78.0" y="112.4" font-size="6.4" fill="#0b0b0b" font-weight="400" text-anchor="start">HoneyComb</text>
+<text x="167.0" y="112.4" font-size="6.2" fill="#52514e" font-weight="700" text-anchor="end">A</text>
+<text x="179.0" y="112.4" font-size="6.2" fill="#0b0b0b">●</text>
+<text x="187.0" y="112.4" font-size="6.4" fill="#0b0b0b" font-weight="400" text-anchor="start">Robin</text>
+<text x="276.0" y="112.4" font-size="6.2" fill="#52514e" font-weight="700" text-anchor="end">A</text>
+<text x="288.0" y="112.4" font-size="6.2" fill="#0b0b0b">●</text>
+<text x="296.0" y="112.4" font-size="6.4" fill="#0b0b0b" font-weight="400" text-anchor="start">Virtual Lab</text>
+<text x="385.0" y="112.4" font-size="6.2" fill="#52514e" font-weight="700" text-anchor="end">A</text>
+<text x="397.0" y="112.4" font-size="6.2" fill="#52514e">○</text>
+<text x="405.0" y="112.4" font-size="6.4" fill="#0b0b0b" font-weight="400" text-anchor="start">Zochi</text>
+<text x="494.0" y="112.4" font-size="6.2" fill="#9e3129" font-weight="700" text-anchor="end">?</text>
+<line x1="8" y1="120.8" x2="508" y2="120.8" stroke="#d8d7d0" stroke-width="0.5"/>
+<text x="8.0" y="129.8" font-size="7.2" fill="#2a78d6" font-weight="700" text-anchor="start">R0</text>
+<text x="8.0" y="137.8" font-size="5.6" fill="#898781" font-weight="400" text-anchor="start">implicit</text>
+<text x="70.0" y="129.8" font-size="6.2" fill="#52514e">◐</text>
+<text x="78.0" y="129.8" font-size="6.4" fill="#0b0b0b" font-weight="400" text-anchor="start">PaperQA2</text>
+<text x="167.0" y="129.8" font-size="6.2" fill="#52514e" font-weight="700" text-anchor="end">A</text>
+<line x1="8" y1="151.8" x2="508" y2="151.8" stroke="#0b0b0b" stroke-width="0.6"/>
+<text x="8.0" y="159.8" font-size="5.8" fill="#52514e" font-weight="700" text-anchor="start">validation</text>
+<text x="54.0" y="159.8" font-size="5.8" fill="#52514e" font-weight="400" text-anchor="start">● physical / in vitro    ◐ benchmark or leaderboard    ○ none, partial or not reported</text>
+<text x="8.0" y="168.8" font-size="5.8" fill="#52514e" font-weight="700" text-anchor="start">checked by</text>
+<text x="54.0" y="168.8" font-size="5.8" fill="#52514e" font-weight="400" text-anchor="start">A authors    C collaborating labs    L external leaderboard    T third party, after release    ? none stated</text>
+<text x="8.0" y="177.8" font-size="5.6" fill="#898781" font-weight="400" text-anchor="start" font-style="italic">n = 26 LLM-era systems. Venues verified 29 July 2026. Representation coded from the published description; borderline cases are noted in the text.</text>
+</svg>
