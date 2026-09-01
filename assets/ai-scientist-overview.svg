@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="516" height="202" viewBox="0 0 516 202" role="img" aria-labelledby="t d" font-family="Helvetica, Arial, sans-serif">
+<title id="t">The discovery loop and what may close it</title>
+<desc id="d">A cycle of four stages: represented hypothesis, experiment or evaluation, evidence, and retention, revision or rejection, returning to the hypothesis. Six kinds of experiment or evaluation are listed beside the second stage, ordered by evidential strength.</desc>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5.5" markerHeight="5.5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#52514e"/></marker><marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5.5" markerHeight="5.5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2a78d6"/></marker><marker id="af" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#8a8880"/></marker></defs>
+<rect width="516" height="202" fill="#ffffff"/>
+<rect x="74" y="12" width="186" height="28" rx="3" fill="#ffffff" stroke="#0b0b0b" stroke-width="0.8"/>
+<text x="167.0" y="28.6" font-size="7.8" fill="#0b0b0b" font-weight="600" text-anchor="middle">Represented hypothesis</text>
+<path d="M167.0 40 L167.0 53" stroke="#52514e" stroke-width="1" marker-end="url(#a)"/>
+<rect x="74" y="56" width="186" height="28" rx="3" fill="#ffffff" stroke="#0b0b0b" stroke-width="0.8"/>
+<text x="167.0" y="72.6" font-size="7.8" fill="#0b0b0b" font-weight="600" text-anchor="middle">Experiment / evaluation</text>
+<path d="M167.0 84 L167.0 97" stroke="#52514e" stroke-width="1" marker-end="url(#a)"/>
+<rect x="74" y="100" width="186" height="28" rx="3" fill="#ffffff" stroke="#0b0b0b" stroke-width="0.8"/>
+<text x="167.0" y="116.6" font-size="7.8" fill="#0b0b0b" font-weight="600" text-anchor="middle">Evidence</text>
+<path d="M167.0 128 L167.0 141" stroke="#52514e" stroke-width="1" marker-end="url(#a)"/>
+<rect x="74" y="144" width="186" height="28" rx="3" fill="#ffffff" stroke="#0b0b0b" stroke-width="0.8"/>
+<text x="167.0" y="160.6" font-size="7.8" fill="#0b0b0b" font-weight="600" text-anchor="middle">Retention · revision · rejection</text>
+<path d="M74 158.0 L44 158.0 L44 26.0 L71 26.0" fill="none" stroke="#2a78d6" stroke-width="1.1" marker-end="url(#ab)"/>
+<text x="44.0" y="16.0" font-size="11" fill="#2a78d6" font-weight="400" text-anchor="middle">↺</text>
+<text x="37.0" y="92.0" font-size="6.2" fill="#2a78d6" text-anchor="middle" transform="rotate(-90 37.0 92.0)">the loop closes here</text>
+<rect x="306" y="8" width="186" height="150" rx="4" fill="#ffffff" stroke="#d5d4cd" stroke-width="0.8"/>
+<text x="316.0" y="23.0" font-size="6.8" fill="#52514e" font-weight="700" text-anchor="start">what may close the loop</text>
+<line x1="316" y1="28" x2="482" y2="28" stroke="#d5d4cd" stroke-width="0.5"/>
+<text x="322.0" y="42.0" font-size="6.6" fill="#8a8880" font-weight="700" text-anchor="start">V1</text>
+<text x="342.0" y="42.0" font-size="7.6" fill="#0b0b0b" font-weight="400" text-anchor="start">self-critique</text>
+<text x="322.0" y="61.0" font-size="6.6" fill="#8a8880" font-weight="700" text-anchor="start">V2</text>
+<text x="342.0" y="61.0" font-size="7.6" fill="#0b0b0b" font-weight="400" text-anchor="start">agent debate</text>
+<text x="322.0" y="80.0" font-size="6.6" fill="#8a8880" font-weight="700" text-anchor="start">V3</text>
+<text x="342.0" y="80.0" font-size="7.6" fill="#0b0b0b" font-weight="400" text-anchor="start">execution</text>
+<text x="322.0" y="99.0" font-size="6.6" fill="#8a8880" font-weight="700" text-anchor="start">V4</text>
+<text x="342.0" y="99.0" font-size="7.6" fill="#0b0b0b" font-weight="400" text-anchor="start">statistics</text>
+<text x="322.0" y="118.0" font-size="6.6" fill="#8a8880" font-weight="700" text-anchor="start">V5</text>
+<text x="342.0" y="118.0" font-size="7.6" fill="#0b0b0b" font-weight="400" text-anchor="start">empirical experiment</text>
+<text x="322.0" y="137.0" font-size="6.6" fill="#8a8880" font-weight="700" text-anchor="start">V6</text>
+<text x="342.0" y="137.0" font-size="7.6" fill="#0b0b0b" font-weight="400" text-anchor="start">formal verification</text>
+<path d="M260 70.0 L303 70.0" stroke="#d5d4cd" stroke-width="0.8" stroke-dasharray="2.5 2" marker-end="url(#af)"/>
+<path d="M485 144 L485 38" stroke="#8a8880" stroke-width="0.8" marker-end="url(#af)"/>
+<text x="481.0" y="89.0" font-size="5.9" fill="#8a8880" text-anchor="middle" transform="rotate(-90 481.0 89.0)">increasing strength of evidence</text>
+<text x="167.0" y="194.0" font-size="7.0" fill="#52514e" font-weight="400" text-anchor="middle" font-style="italic">A hypothesis that is not represented cannot be revised on evidence.</text>
+</svg>
