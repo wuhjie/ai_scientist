@@ -20,10 +20,10 @@ MODES = [("C0", "no demonstrated closure"), ("C1", "self-critique"),
          ("C4", "statistical adjudication"), ("C5", "empirical feedback"),
          ("C6", "formal verification")]
 
-BW, BH, STEP = 168.0, 24.0, 40.0
-CX = 96.0                      # centre of the stage column
+BW, BH, STEP = 150.0, 24.0, 40.0
+CX = 87.0                      # centre of the stage column
 RX = CX - BW / 2 - 26          # x of the return edge
-PX, PW = 258.0, 220.0          # modes panel
+PX, PW = 232.0, 219.0          # modes panel (right edge 451 < 453 = ACL textwidth)
 ys = [-(20 + i * STEP) for i in range(4)]
 
 L = []

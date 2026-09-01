@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Emit the simplified landscape as TikZ, sized natively for an IEEE figure*.
+"""Emit the simplified landscape as TikZ, sized natively for an ACL figure*.
 
-The SVG version is 1400pt wide; scaled into a 516pt two-column figure its type
-would fall to about 4pt. This lays the same content out at 516pt directly, one
+The SVG version is 1400pt wide; scaled into a 453pt two-column figure its type
+would fall to about 4pt. This lays the same content out at 453pt directly -- the ACL text width -- one
 line per entry (name + year), so the type stays near 7pt.
 
 TikZ rather than an image: no conversion step, vector output, and the figure
@@ -29,7 +29,7 @@ def year(venue):
     m = re.findall(r'(1[89]\d{2}|20\d{2})', venue)
     return m[-1] if m else (venue.split()[0] if venue else "")
 
-W, COLW, GAP, ROW = 516.0, 123.0, 8.0, 11.6
+W, COLW, GAP, ROW = 453.0, 107.2, 8.0, 11.6   # W = ACL \textwidth (a4, 2.5cm margins)
 X = [0.0, COLW + GAP, 2 * (COLW + GAP), 3 * (COLW + GAP)]
 L = []
 def out(s): L.append(s)
