@@ -15,13 +15,15 @@ import os
 
 STAGES = ["Represented hypothesis", "Experiment / evaluation", "Evidence",
           "Retention $\\cdot$ revision $\\cdot$ rejection"]
-MODES = [("V1", "self-critique"), ("V2", "agent debate"), ("V3", "execution"),
-         ("V4", "statistics"), ("V5", "empirical experiment"), ("V6", "formal verification")]
+MODES = [("C0", "no demonstrated closure"), ("C1", "self-critique"),
+         ("C2", "multi-agent critique or selection"), ("C3", "executable evaluation"),
+         ("C4", "statistical adjudication"), ("C5", "empirical feedback"),
+         ("C6", "formal verification")]
 
 BW, BH, STEP = 168.0, 24.0, 40.0
 CX = 96.0                      # centre of the stage column
 RX = CX - BW / 2 - 26          # x of the return edge
-PX, PW = 268.0, 208.0          # modes panel
+PX, PW = 258.0, 220.0          # modes panel
 ys = [-(20 + i * STEP) for i in range(4)]
 
 L = []
@@ -43,8 +45,7 @@ o(r"  panel/.style={draw=lprule, line width=0.7pt, rounded corners=3pt},")
 o(r"  lbl/.style={font=\fontsize{6.2}{7}\selectfont, text=lpacc},")
 o(r"  mode/.style={anchor=west, font=\fontsize{7.4}{8}\selectfont, text=lpink},")
 o(r"  rung/.style={anchor=west, font=\fontsize{6.4}{7}\bfseries\selectfont, text=lpgrey},")
-o(r"  head/.style={anchor=west, font=\fontsize{6.6}{7}\bfseries\selectfont, text=lpmid},")
-o(r"  axis/.style={draw=lpgrey, line width=0.7pt, ->}}")
+o(r"  head/.style={anchor=west, font=\fontsize{6.6}{7}\bfseries\selectfont, text=lpmid}}")
 o(r"\begin{tikzpicture}[x=1pt,y=1pt]")
 
 for i, (s, y) in enumerate(zip(STAGES, ys)):
@@ -63,23 +64,20 @@ o(f"  \\draw[panel] ({PX:.1f}pt,{ptop:.1f}pt) rectangle ({PX+PW:.1f}pt,{pbot:.1f
 o(f"  \\node[head] at ({PX+11:.1f}pt,{ptop-11:.1f}pt) {{what may close the loop}};")
 o(f"  \\draw[draw=lprule, line width=0.5pt] ({PX+11:.1f}pt,{ptop-18:.1f}pt) -- ({PX+PW-11:.1f}pt,{ptop-18:.1f}pt);")
 for i, (rung, name) in enumerate(MODES):
-    y = ptop - 30 - i * 17.5
+    y = ptop - 28 - i * 15.5
     o(f"  \\node[rung] at ({PX+16:.1f}pt,{y:.1f}pt) {{{rung}}};")
     o(f"  \\node[mode] at ({PX+38:.1f}pt,{y:.1f}pt) {{{name}}};")
-ax = PX + PW - 9
-o(f"  \\draw[axis] ({ax:.1f}pt,{pbot+12:.1f}pt) -- ({ax:.1f}pt,{ptop-26:.1f}pt);")
-o(f"  \\node[font=\\fontsize{{5.9}}{{6.5}}\\selectfont, text=lpgrey, rotate=90] "
-  f"at ({ax-7:.1f}pt,{(ptop+pbot)/2-6:.1f}pt) {{increasing strength of evidence}};")
 o(f"  \\draw[hint] (s1.east) -- ({PX-2:.1f}pt,{ys[1]:.1f}pt);")
 
 o(r"\end{tikzpicture}")
 o(r"\endgroup")
 o(r"\caption{The discovery loop, and what may close it. A represented hypothesis is put to an "
   r"experiment or evaluation, which yields evidence, which is acted on by retaining, revising or "
-  r"rejecting the hypothesis. The six things that can play the role of experiment or evaluation "
-  r"are listed beside that stage, in increasing order of the strength of evidence they produce. "
-  r"A hypothesis that is not represented cannot be revised on evidence, so the return edge is the "
-  r"part of the cycle that a system's representation determines.}")
+  r"rejecting the hypothesis. The seven mechanisms that can play the role of experiment or "
+  r"evaluation are listed beside that stage, using the coding of Section~\\ref{sec:loopclosure}; "
+  r"they are not ordered, and one system may combine several. A hypothesis that is not represented "
+  r"cannot be revised on evidence, so the return edge is the part of the cycle that a system's "
+  r"representation determines.}")
 o(r"\label{fig:loop}")
 o(r"\end{figure*}")
 

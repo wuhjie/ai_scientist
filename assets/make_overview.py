@@ -20,8 +20,10 @@ PAPER, ACCENT = "#ffffff", "#2a78d6"
 
 STAGES = ["Represented hypothesis", "Experiment / evaluation", "Evidence",
           "Retention · revision · rejection"]
-MODES = [("V1", "self-critique"), ("V2", "agent debate"), ("V3", "execution"),
-         ("V4", "statistics"), ("V5", "empirical experiment"), ("V6", "formal verification")]
+MODES = [("C0", "no demonstrated closure"), ("C1", "self-critique"),
+         ("C2", "multi-agent critique or selection"), ("C3", "executable evaluation"),
+         ("C4", "statistical adjudication"), ("C5", "empirical feedback"),
+         ("C6", "formal verification")]
 
 out = []
 def add(s): out.append(s)
@@ -35,7 +37,7 @@ add(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="
 add('<title id="t">The discovery loop and what may close it</title>')
 add('<desc id="d">A cycle of four stages: represented hypothesis, experiment or evaluation, '
     'evidence, and retention, revision or rejection, returning to the hypothesis. Six kinds of '
-    'experiment or evaluation are listed beside the second stage, ordered by evidential strength.</desc>')
+    'experiment or evaluation are listed beside the second stage, coded as non-ordinal.</desc>')
 add(f'<defs>'
     f'<marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5.5" markerHeight="5.5" '
     f'orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="{MID}"/></marker>'
@@ -67,13 +69,13 @@ add(f'<text x="{rx-7:.1f}" y="{(ys[0]+ys[3])/2+BH/2:.1f}" font-size="6.2" fill="
 
 # what can play the role of "experiment / evaluation"
 PX, PY = 306, 8
-PW, PH = 186, 150
+PW, PH = 196, 150
 add(f'<rect x="{PX}" y="{PY}" width="{PW}" height="{PH}" rx="4" fill="{PAPER}" '
     f'stroke="{RULE}" stroke-width="0.8"/>')
 txt(PX + 10, PY + 15, "what may close the loop", 6.8, MID, 700, "start")
 add(f'<line x1="{PX+10}" y1="{PY+20}" x2="{PX+PW-10}" y2="{PY+20}" stroke="{RULE}" stroke-width="0.5"/>')
 for i, (rung, name) in enumerate(MODES):
-    y = PY + 34 + i * 19
+    y = PY + 32 + i * 16.5
     txt(PX + 16, y, rung, 6.6, LIGHT, 700, "start")
     txt(PX + 36, y, name, 7.6, INK, 400, "start")
 
@@ -81,12 +83,6 @@ for i, (rung, name) in enumerate(MODES):
 add(f'<path d="M{BX+BW} {ys[1]+BH/2} L{PX-3} {ys[1]+BH/2}" stroke="{RULE}" stroke-width="0.8" '
     f'stroke-dasharray="2.5 2" marker-end="url(#af)"/>')
 
-# the ordering claim, stated rather than implied
-ax = PX + PW - 7
-add(f'<path d="M{ax} {PY+PH-14} L{ax} {PY+30}" stroke="{LIGHT}" stroke-width="0.8" '
-    f'marker-end="url(#af)"/>')
-add(f'<text x="{ax-4:.1f}" y="{PY+PH/2+6:.1f}" font-size="5.9" fill="{LIGHT}" text-anchor="middle" '
-    f'transform="rotate(-90 {ax-4:.1f} {PY+PH/2+6:.1f})">increasing strength of evidence</text>')
 
 txt(BX + BW / 2, H - 8, "A hypothesis that is not represented cannot be revised on evidence.",
     7.0, MID, 400, "middle", "italic")
