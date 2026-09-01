@@ -341,6 +341,37 @@ This is a count of what the sources record, not a claim that the remainder are w
 | [Agentic AI for Scientific Discovery](https://arxiv.org/abs/2503.08979) | `[preprint]` | Progress, challenges, future directions |
 | [From AI for Science to Agentic Science](https://arxiv.org/abs/2508.14111) | `[preprint]` | Traces the transition from models-as-tools to agents-as-investigators |
 | [Architecting Trust in Artificial Epistemic Agents](https://arxiv.org/abs/2603.02960) | `[preprint]` | Argues for demonstrable *epistemic competence* — including the ability to evaluate the reliability of evidence — as a deployment precondition |
+| [Autonomous Research Agents: A Survey of AI Scientists and the Verification Gap](https://arxiv.org/abs/2608.05179) | `[preprint]` | Codes systems by inspectable **audit artifact** — code release, execution traces, novelty-verification method. Scoped to computational AI/ML research; 125 screened, 35 included, 26 coded |
+| [A Survey of AI Scientists](https://arxiv.org/abs/2510.23045) | `[preprint]` | Six-stage research-lifecycle framework: literature review, ideation, preparation, execution, writing, paper generation |
+| [Recursive Self-Improvement in AI](https://arxiv.org/abs/2607.07663) | `[preprint]` | Orders **evaluator signals** into a verification hierarchy, from formal verifiers (strongest) to intrinsic self-assessment (weakest); 1,250 papers |
+
+### How this review differs
+
+Not a claim of priority — several of the above are broader, and two are peer-reviewed where
+this is not. The difference is the **unit of analysis**.
+
+| | Unit of analysis | Corpus scope |
+|---|---|---|
+| Automation to Autonomy | level of autonomy | all domains |
+| From AI for Science to Agentic Science | capability and domain realisation | all domains |
+| A Survey of AI Scientists | stage of the research lifecycle | all domains |
+| Verification Gap | inspectable audit artifact | computational AI/ML only |
+| Recursive Self-Improvement | strength of the evaluator's guarantee | self-improving systems |
+| **This review** | the hypothesis object, and what evidence changes about it | all domains, incl. wet lab |
+
+The two closest are the last two, and both take the **evaluator** as the unit: whether it can
+be audited, and how strong a signal it gives. This review asks what the evaluator acts upon —
+what kind of claim a system maintains, and what an incoming result changes about it. A system
+can have a formally strong evaluator and still have nothing that evidence revises, because
+repeated execution against a metric closes an optimisation loop rather than a
+hypothesis–evidence loop.
+
+Two scope notes. The Verification Gap survey deliberately restricts itself to computational
+AI/ML research, where code and benchmarks stay inspectable; this catalogue includes wet-lab,
+chemistry and self-driving-lab systems, where inspection is harder and the coding is
+correspondingly less certain. And that survey reports a screening trail — 125 → 35 → 26 —
+where this catalogue was assembled by continuous curation and kept none; see
+[Verification policy](#verification-policy).
 
 ---
 
