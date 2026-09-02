@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="453pt" height="193pt" viewBox="0 0 906 386" role="img" aria-labelledby="history-title history-desc" font-family="Helvetica, Arial, sans-serif">
+<title id="history-title">Historical design transition in AI systems for scientific discovery</title>
+<desc id="history-desc">Three analytic phases show expansion from explicit but narrow scientific objects, through general reasoning and tool use, to framework-level research control. Agentic control expands across the phases while explicit epistemic revision remains uneven.</desc>
+<defs><marker id="history-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#245EA8"/></marker></defs>
+<rect width="906" height="386" fill="#FFFFFF"/>
+<text x="24" y="27" font-size="13" fill="#245EA8" font-weight="700" text-anchor="start">HISTORICAL DESIGN TRANSITION</text>
+<text x="882" y="27" font-size="13" fill="#768399" font-weight="400" text-anchor="end" font-style="italic">analytic phases, not a genealogy</text>
+<rect x="24" y="50" width="260" height="186" rx="9" fill="#FFFFFF" stroke="#D7DEE9" stroke-width="2"/>
+<rect x="24" y="50" width="260" height="42" rx="9" fill="#EAF1FA"/>
+<rect x="24" y="84" width="260" height="8" fill="#EAF1FA"/>
+<circle cx="46" cy="71" r="12" fill="#245EA8"/>
+<text x="46" y="76" font-size="14" fill="#FFFFFF" font-weight="700" text-anchor="middle">1</text>
+<text x="68" y="76" font-size="13" fill="#172033" font-weight="700" text-anchor="start">EXPLICIT SCIENTIFIC OBJECTS</text>
+<text x="42" y="113" font-size="12.5" fill="#526076" font-weight="600" text-anchor="start">DENDRAL · BACON · KEKADA</text>
+<text x="42" y="130" font-size="12.5" fill="#526076" font-weight="600" text-anchor="start">Adam · Eve</text>
+<circle cx="46" cy="141" r="3.5" fill="#245EA8"/>
+<text x="58" y="145" font-size="14" fill="#172033" font-weight="500" text-anchor="start">structured claims or models</text>
+<circle cx="46" cy="166" r="3.5" fill="#245EA8"/>
+<text x="58" y="170" font-size="14" fill="#172033" font-weight="500" text-anchor="start">targeted evidence relations</text>
+<circle cx="46" cy="191" r="3.5" fill="#245EA8"/>
+<text x="58" y="195" font-size="14" fill="#172033" font-weight="500" text-anchor="start">revision or elimination possible</text>
+<line x1="42" y1="214" x2="266" y2="214" stroke="#D7DEE9"/>
+<text x="42" y="229" font-size="12" fill="#768399" font-weight="400" text-anchor="start" font-style="italic">narrow, domain-specific control</text>
+<rect x="323" y="50" width="260" height="186" rx="9" fill="#FFFFFF" stroke="#D7DEE9" stroke-width="2"/>
+<rect x="323" y="50" width="260" height="42" rx="9" fill="#EAF1FA"/>
+<rect x="323" y="84" width="260" height="8" fill="#EAF1FA"/>
+<circle cx="345" cy="71" r="12" fill="#245EA8"/>
+<text x="345" y="76" font-size="14" fill="#FFFFFF" font-weight="700" text-anchor="middle">2</text>
+<text x="367" y="76" font-size="13" fill="#172033" font-weight="700" text-anchor="start">GENERAL REASONING + TOOL USE</text>
+<text x="341" y="113" font-size="12.5" fill="#526076" font-weight="600" text-anchor="start">Chain-of-Thought · ReAct</text>
+<circle cx="345" cy="141" r="3.5" fill="#245EA8"/>
+<text x="357" y="145" font-size="14" fill="#172033" font-weight="500" text-anchor="start">flexible task decomposition</text>
+<circle cx="345" cy="166" r="3.5" fill="#245EA8"/>
+<text x="357" y="170" font-size="14" fill="#172033" font-weight="500" text-anchor="start">action–observation interaction</text>
+<circle cx="345" cy="191" r="3.5" fill="#245EA8"/>
+<text x="357" y="195" font-size="14" fill="#172033" font-weight="500" text-anchor="start">state often remains context</text>
+<line x1="341" y1="214" x2="565" y2="214" stroke="#D7DEE9"/>
+<text x="341" y="229" font-size="12" fill="#768399" font-weight="400" text-anchor="start" font-style="italic">broader task handling</text>
+<rect x="622" y="50" width="260" height="186" rx="9" fill="#FFFFFF" stroke="#D7DEE9" stroke-width="2"/>
+<rect x="622" y="50" width="260" height="42" rx="9" fill="#EAF1FA"/>
+<rect x="622" y="84" width="260" height="8" fill="#EAF1FA"/>
+<circle cx="644" cy="71" r="12" fill="#245EA8"/>
+<text x="644" y="76" font-size="14" fill="#FFFFFF" font-weight="700" text-anchor="middle">3</text>
+<text x="666" y="76" font-size="13" fill="#172033" font-weight="700" text-anchor="start">FRAMEWORK-LEVEL CONTROL</text>
+<text x="640" y="113" font-size="12.5" fill="#526076" font-weight="600" text-anchor="start">AI Scientist · Co-Scientist</text>
+<text x="640" y="130" font-size="12.5" fill="#526076" font-weight="600" text-anchor="start">KOSMOS · Robin</text>
+<circle cx="644" cy="141" r="3.5" fill="#245EA8"/>
+<text x="656" y="145" font-size="14" fill="#172033" font-weight="500" text-anchor="start">longer research workflows</text>
+<circle cx="644" cy="166" r="3.5" fill="#245EA8"/>
+<text x="656" y="170" font-size="14" fill="#172033" font-weight="500" text-anchor="start">distributed roles and tools</text>
+<circle cx="644" cy="191" r="3.5" fill="#245EA8"/>
+<text x="656" y="195" font-size="14" fill="#172033" font-weight="500" text-anchor="start">operational updates common</text>
+<line x1="640" y1="214" x2="864" y2="214" stroke="#D7DEE9"/>
+<text x="640" y="229" font-size="12" fill="#768399" font-weight="400" text-anchor="start" font-style="italic">broader, more open-ended control</text>
+<line x1="291" y1="143" x2="315" y2="143" stroke="#245EA8" stroke-width="2" marker-end="url(#history-arrow)"/>
+<line x1="590" y1="143" x2="614" y2="143" stroke="#245EA8" stroke-width="2" marker-end="url(#history-arrow)"/>
+<text x="24" y="274" font-size="13" fill="#245EA8" font-weight="700" text-anchor="start">AGENTIC CONTROL</text>
+<line x1="174" y1="269" x2="866" y2="269" stroke="#245EA8" stroke-width="4" marker-end="url(#history-arrow)"/>
+<text x="174" y="260" font-size="12" fill="#526076" font-weight="500" text-anchor="start">action space</text>
+<text x="456" y="260" font-size="12" fill="#526076" font-weight="500" text-anchor="middle">research horizon</text>
+<text x="834" y="260" font-size="12" fill="#526076" font-weight="500" text-anchor="end">orchestration</text>
+<text x="24" y="325" font-size="13" fill="#526076" font-weight="700" text-anchor="start">EPISTEMIC CONTROL</text>
+<line x1="174" y1="320" x2="866" y2="320" stroke="#768399" stroke-width="2" stroke-dasharray="8 6" marker-end="url(#history-arrow)"/>
+<rect x="558" y="300" width="308" height="38" rx="5" fill="#F5F7FA"/>
+<text x="712" y="324" font-size="13" fill="#526076" font-weight="600" text-anchor="middle">explicit evidence → claim revision remains uneven</text>
+<text x="453" y="370" font-size="13" fill="#526076" font-weight="600" text-anchor="middle" font-style="italic">Framework scale increases what can be done; it does not by itself determine what evidence changes.</text>
+</svg>

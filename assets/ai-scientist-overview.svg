@@ -1,39 +1,73 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="516" height="202" viewBox="0 0 516 202" role="img" aria-labelledby="t d" font-family="Helvetica, Arial, sans-serif">
-<title id="t">The discovery loop and what may close it</title>
-<desc id="d">A cycle of four stages: represented hypothesis, experiment or evaluation, evidence, and retention, revision or rejection, returning to the hypothesis. Six kinds of experiment or evaluation are listed beside the second stage, coded as non-ordinal.</desc>
-<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5.5" markerHeight="5.5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#52514e"/></marker><marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5.5" markerHeight="5.5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2a78d6"/></marker><marker id="af" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#8a8880"/></marker></defs>
-<rect width="516" height="202" fill="#ffffff"/>
-<rect x="74" y="12" width="186" height="28" rx="3" fill="#ffffff" stroke="#0b0b0b" stroke-width="0.8"/>
-<text x="167.0" y="28.6" font-size="7.8" fill="#0b0b0b" font-weight="600" text-anchor="middle">Represented hypothesis</text>
-<path d="M167.0 40 L167.0 53" stroke="#52514e" stroke-width="1" marker-end="url(#a)"/>
-<rect x="74" y="56" width="186" height="28" rx="3" fill="#ffffff" stroke="#0b0b0b" stroke-width="0.8"/>
-<text x="167.0" y="72.6" font-size="7.8" fill="#0b0b0b" font-weight="600" text-anchor="middle">Experiment / evaluation</text>
-<path d="M167.0 84 L167.0 97" stroke="#52514e" stroke-width="1" marker-end="url(#a)"/>
-<rect x="74" y="100" width="186" height="28" rx="3" fill="#ffffff" stroke="#0b0b0b" stroke-width="0.8"/>
-<text x="167.0" y="116.6" font-size="7.8" fill="#0b0b0b" font-weight="600" text-anchor="middle">Evidence</text>
-<path d="M167.0 128 L167.0 141" stroke="#52514e" stroke-width="1" marker-end="url(#a)"/>
-<rect x="74" y="144" width="186" height="28" rx="3" fill="#ffffff" stroke="#0b0b0b" stroke-width="0.8"/>
-<text x="167.0" y="160.6" font-size="7.8" fill="#0b0b0b" font-weight="600" text-anchor="middle">Retention · revision · rejection</text>
-<path d="M74 158.0 L44 158.0 L44 26.0 L71 26.0" fill="none" stroke="#2a78d6" stroke-width="1.1" marker-end="url(#ab)"/>
-<text x="44.0" y="16.0" font-size="11" fill="#2a78d6" font-weight="400" text-anchor="middle">↺</text>
-<text x="37.0" y="92.0" font-size="6.2" fill="#2a78d6" text-anchor="middle" transform="rotate(-90 37.0 92.0)">the loop closes here</text>
-<rect x="306" y="8" width="196" height="150" rx="4" fill="#ffffff" stroke="#d5d4cd" stroke-width="0.8"/>
-<text x="316.0" y="23.0" font-size="6.8" fill="#52514e" font-weight="700" text-anchor="start">what may close the loop</text>
-<line x1="316" y1="28" x2="492" y2="28" stroke="#d5d4cd" stroke-width="0.5"/>
-<text x="322.0" y="40.0" font-size="6.6" fill="#8a8880" font-weight="700" text-anchor="start">C0</text>
-<text x="342.0" y="40.0" font-size="7.6" fill="#0b0b0b" font-weight="400" text-anchor="start">no demonstrated closure</text>
-<text x="322.0" y="56.5" font-size="6.6" fill="#8a8880" font-weight="700" text-anchor="start">C1</text>
-<text x="342.0" y="56.5" font-size="7.6" fill="#0b0b0b" font-weight="400" text-anchor="start">self-critique</text>
-<text x="322.0" y="73.0" font-size="6.6" fill="#8a8880" font-weight="700" text-anchor="start">C2</text>
-<text x="342.0" y="73.0" font-size="7.6" fill="#0b0b0b" font-weight="400" text-anchor="start">multi-agent critique or selection</text>
-<text x="322.0" y="89.5" font-size="6.6" fill="#8a8880" font-weight="700" text-anchor="start">C3</text>
-<text x="342.0" y="89.5" font-size="7.6" fill="#0b0b0b" font-weight="400" text-anchor="start">executable evaluation</text>
-<text x="322.0" y="106.0" font-size="6.6" fill="#8a8880" font-weight="700" text-anchor="start">C4</text>
-<text x="342.0" y="106.0" font-size="7.6" fill="#0b0b0b" font-weight="400" text-anchor="start">statistical adjudication</text>
-<text x="322.0" y="122.5" font-size="6.6" fill="#8a8880" font-weight="700" text-anchor="start">C5</text>
-<text x="342.0" y="122.5" font-size="7.6" fill="#0b0b0b" font-weight="400" text-anchor="start">empirical feedback</text>
-<text x="322.0" y="139.0" font-size="6.6" fill="#8a8880" font-weight="700" text-anchor="start">C6</text>
-<text x="342.0" y="139.0" font-size="7.6" fill="#0b0b0b" font-weight="400" text-anchor="start">formal verification</text>
-<path d="M260 70.0 L303 70.0" stroke="#d5d4cd" stroke-width="0.8" stroke-dasharray="2.5 2" marker-end="url(#af)"/>
-<text x="167.0" y="194.0" font-size="7.0" fill="#52514e" font-weight="400" text-anchor="middle" font-style="italic">A hypothesis that is not represented cannot be revised on evidence.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="453pt" height="177pt" viewBox="0 0 906 354" role="img" aria-labelledby="loop-title loop-desc" font-family="Helvetica, Arial, sans-serif">
+<title id="loop-title">The Pass 3 epistemic loop</title>
+<desc id="loop-desc">Scientific claims and state receive evidence, evidence is adjudicated, and an update either changes an output or changes the represented epistemic state. Provenance records who produced and checked the evidence.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#245EA8"/></marker></defs>
+<rect width="906" height="354" fill="#FFFFFF"/>
+<text x="24" y="27" font-size="13" fill="#245EA8" font-weight="700" text-anchor="start">EPISTEMIC CONTROL · PASS 3</text>
+<text x="882" y="27" font-size="13" fill="#768399" font-weight="600" text-anchor="end">H/S → E → A → U</text>
+<rect x="24" y="50" width="184" height="154" rx="8" fill="#FFFFFF" stroke="#D7DEE9" stroke-width="2"/>
+<rect x="24" y="50" width="184" height="34" rx="8" fill="#EAF1FA"/>
+<rect x="24" y="76" width="184" height="8" fill="#EAF1FA"/>
+<text x="38" y="73" font-size="14" fill="#172033" font-weight="700" text-anchor="start">CLAIM + STATE</text>
+<text x="194" y="73" font-size="14" fill="#245EA8" font-weight="700" text-anchor="end">H / S</text>
+<rect x="228" y="50" width="166" height="154" rx="8" fill="#FFFFFF" stroke="#D7DEE9" stroke-width="2"/>
+<rect x="228" y="50" width="166" height="34" rx="8" fill="#EAF1FA"/>
+<rect x="228" y="76" width="166" height="8" fill="#EAF1FA"/>
+<text x="242" y="73" font-size="14" fill="#172033" font-weight="700" text-anchor="start">EVIDENCE</text>
+<text x="380" y="73" font-size="14" fill="#245EA8" font-weight="700" text-anchor="end">E</text>
+<rect x="414" y="50" width="188" height="154" rx="8" fill="#FFFFFF" stroke="#D7DEE9" stroke-width="2"/>
+<rect x="414" y="50" width="188" height="34" rx="8" fill="#EAF1FA"/>
+<rect x="414" y="76" width="188" height="8" fill="#EAF1FA"/>
+<text x="428" y="73" font-size="14" fill="#172033" font-weight="700" text-anchor="start">ADJUDICATION</text>
+<text x="588" y="73" font-size="14" fill="#245EA8" font-weight="700" text-anchor="end">A</text>
+<rect x="622" y="50" width="260" height="154" rx="8" fill="#FFFFFF" stroke="#D7DEE9" stroke-width="2"/>
+<rect x="622" y="50" width="260" height="34" rx="8" fill="#EAF1FA"/>
+<rect x="622" y="76" width="260" height="8" fill="#EAF1FA"/>
+<text x="636" y="73" font-size="14" fill="#172033" font-weight="700" text-anchor="start">UPDATE</text>
+<text x="868" y="73" font-size="14" fill="#245EA8" font-weight="700" text-anchor="end">U</text>
+<line x1="212" y1="127" x2="223" y2="127" stroke="#245EA8" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="398" y1="127" x2="409" y2="127" stroke="#245EA8" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="606" y1="127" x2="617" y2="127" stroke="#245EA8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="40" y="107" font-size="15" fill="#245EA8" font-weight="700" text-anchor="start">H0–H3</text>
+<text x="99" y="107" font-size="15" fill="#172033" font-weight="600" text-anchor="start">claim form</text>
+<text x="40" y="137" font-size="15" fill="#245EA8" font-weight="700" text-anchor="start">S0–S4</text>
+<text x="99" y="137" font-size="15" fill="#172033" font-weight="600" text-anchor="start">scientific state</text>
+<text x="40" y="171" font-size="13" fill="#526076" font-weight="400" text-anchor="start">What claim exists, and what</text>
+<text x="40" y="188" font-size="13" fill="#526076" font-weight="400" text-anchor="start">persists between actions?</text>
+<text x="244" y="105" font-size="13" fill="#768399" font-weight="700" text-anchor="start">E0</text>
+<text x="280" y="105" font-size="14" fill="#172033" font-weight="500" text-anchor="start">none</text>
+<text x="244" y="128" font-size="13" fill="#768399" font-weight="700" text-anchor="start">E1</text>
+<text x="280" y="128" font-size="14" fill="#172033" font-weight="500" text-anchor="start">literature</text>
+<text x="244" y="151" font-size="13" fill="#768399" font-weight="700" text-anchor="start">E2–E3</text>
+<text x="300" y="151" font-size="14" fill="#172033" font-weight="500" text-anchor="start">execution · data</text>
+<text x="244" y="174" font-size="13" fill="#768399" font-weight="700" text-anchor="start">E4–E5</text>
+<text x="300" y="174" font-size="14" fill="#172033" font-weight="500" text-anchor="start">physical · formal</text>
+<text x="430" y="105" font-size="13" fill="#768399" font-weight="700" text-anchor="start">A0</text>
+<text x="468" y="105" font-size="14" fill="#172033" font-weight="500" text-anchor="start">none</text>
+<text x="430" y="128" font-size="13" fill="#768399" font-weight="700" text-anchor="start">A1</text>
+<text x="468" y="128" font-size="14" fill="#172033" font-weight="500" text-anchor="start">model / peer</text>
+<text x="430" y="151" font-size="13" fill="#768399" font-weight="700" text-anchor="start">A2–A3</text>
+<text x="490" y="151" font-size="14" fill="#172033" font-weight="500" text-anchor="start">metric · statistics</text>
+<text x="430" y="174" font-size="13" fill="#768399" font-weight="700" text-anchor="start">A4–A5</text>
+<text x="490" y="174" font-size="14" fill="#172033" font-weight="500" text-anchor="start">formal · expert</text>
+<rect x="636" y="96" width="108" height="91" rx="5" fill="#F5F7FA"/>
+<text x="648" y="116" font-size="14" fill="#526076" font-weight="700" text-anchor="start">U0–U3</text>
+<text x="648" y="138" font-size="13" fill="#526076" font-weight="600" text-anchor="start">operational</text>
+<text x="648" y="153" font-size="12.5" fill="#768399" font-weight="400" text-anchor="start">none · select</text>
+<text x="648" y="169" font-size="12.5" fill="#768399" font-weight="400" text-anchor="start">regenerate</text>
+<text x="648" y="185" font-size="12.5" fill="#768399" font-weight="400" text-anchor="start">append</text>
+<rect x="756" y="96" width="112" height="91" rx="5" fill="#EAF1FA" stroke="#245EA8"/>
+<text x="768" y="116" font-size="14" fill="#245EA8" font-weight="700" text-anchor="start">U4–U6</text>
+<text x="768" y="138" font-size="13" fill="#245EA8" font-weight="600" text-anchor="start">epistemic</text>
+<text x="768" y="153" font-size="12.5" fill="#172033" font-weight="400" text-anchor="start">revise claim</text>
+<text x="768" y="169" font-size="12.5" fill="#172033" font-weight="400" text-anchor="start">revise strength</text>
+<text x="768" y="185" font-size="12.5" fill="#172033" font-weight="400" text-anchor="start">eliminate</text>
+<path d="M 812 205 L 812 232 L 116 232 L 116 210" fill="none" stroke="#245EA8" stroke-width="2.2" marker-end="url(#arrow)"/>
+<text x="464" y="226" font-size="13" fill="#245EA8" font-weight="600" text-anchor="middle">an epistemic update changes the represented claim or state</text>
+<rect x="228" y="254" width="374" height="54" rx="7" fill="#F5F7FA" stroke="#D7DEE9" stroke-dasharray="5 4"/>
+<text x="244" y="276" font-size="13" fill="#526076" font-weight="700" text-anchor="start">PROVENANCE · P</text>
+<text x="244" y="296" font-size="11.5" fill="#172033" font-weight="500" text-anchor="start">internal · developer · collaborator · external scorer · independent verifier</text>
+<line x1="312" y1="254" x2="312" y2="210" stroke="#D7DEE9" stroke-width="2" stroke-dasharray="4 4"/>
+<line x1="508" y1="254" x2="508" y2="210" stroke="#D7DEE9" stroke-width="2" stroke-dasharray="4 4"/>
+<text x="453" y="337" font-size="14" fill="#526076" font-weight="600" text-anchor="middle" font-style="italic">Generation is not revision: only U4–U6 alter an explicit claim-level epistemic variable.</text>
 </svg>

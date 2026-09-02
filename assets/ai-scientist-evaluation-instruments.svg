@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="453pt" height="195pt" viewBox="0 0 906 390" role="img" aria-labelledby="inst-title inst-desc" font-family="Helvetica, Arial, sans-serif">
+<title id="inst-title">Observational coverage of AI Scientist evaluation instruments</title>
+<desc id="inst-desc">A matrix shows which parts of the scientific chain are directly targeted, observed only through a reported artifact, or generally outside scope for five evaluation instruments.</desc>
+<rect width="906" height="390" fill="#FFFFFF"/>
+<text x="24" y="27" font-size="13" fill="#245EA8" font-weight="700" text-anchor="start">WHY OUTCOME EVALUATION MISSES PROCESS FAILURES</text>
+<text x="882" y="27" font-size="13" fill="#768399" font-weight="400" text-anchor="end" font-style="italic">primary observational target, not a guarantee of correctness</text>
+<rect x="632" y="48" width="136" height="302" fill="#EAF1FA"/>
+<line x1="216" y1="99" x2="882" y2="99" stroke="#D7DEE9" stroke-width="2"/>
+<text x="286" y="79" font-size="12.5" fill="#526076" font-weight="700" text-anchor="middle">CLAIM</text>
+<text x="424" y="69" font-size="12" fill="#526076" font-weight="700" text-anchor="middle">METHOD /</text>
+<text x="424" y="84" font-size="12" fill="#526076" font-weight="700" text-anchor="middle">EXECUTION</text>
+<text x="562" y="79" font-size="12.5" fill="#526076" font-weight="700" text-anchor="middle">EVIDENCE</text>
+<text x="700" y="69" font-size="12" fill="#526076" font-weight="700" text-anchor="middle">EVIDENCE →</text>
+<text x="700" y="84" font-size="12" fill="#526076" font-weight="700" text-anchor="middle">CLAIM</text>
+<text x="838" y="79" font-size="12.5" fill="#526076" font-weight="700" text-anchor="middle">OUTCOME</text>
+<rect x="20" y="108" width="862" height="48" rx="4" fill="#FAFBFD"/>
+<text x="30" y="130" font-size="14" fill="#172033" font-weight="700" text-anchor="start">Outcome benchmark</text>
+<text x="30" y="148" font-size="12" fill="#768399" font-weight="400" text-anchor="start">scores the endpoint</text>
+<line x1="278" y1="132" x2="294" y2="132" stroke="#D7DEE9" stroke-width="2"/>
+<line x1="416" y1="132" x2="432" y2="132" stroke="#D7DEE9" stroke-width="2"/>
+<line x1="554" y1="132" x2="570" y2="132" stroke="#D7DEE9" stroke-width="2"/>
+<line x1="692" y1="132" x2="708" y2="132" stroke="#D7DEE9" stroke-width="2"/>
+<circle cx="838" cy="132" r="8" fill="#245EA8"/>
+<line x1="20" y1="156" x2="882" y2="156" stroke="#D7DEE9"/>
+<text x="30" y="179" font-size="14" fill="#172033" font-weight="700" text-anchor="start">Manuscript / AI review</text>
+<text x="30" y="197" font-size="12" fill="#768399" font-weight="400" text-anchor="start">reads the reported record</text>
+<circle cx="286" cy="181" r="8" fill="#FFFFFF" stroke="#768399" stroke-width="2"/>
+<circle cx="424" cy="181" r="8" fill="#FFFFFF" stroke="#768399" stroke-width="2"/>
+<circle cx="562" cy="181" r="8" fill="#FFFFFF" stroke="#768399" stroke-width="2"/>
+<circle cx="700" cy="181" r="8" fill="#FFFFFF" stroke="#768399" stroke-width="2"/>
+<circle cx="838" cy="181" r="8" fill="#245EA8"/>
+<line x1="20" y1="205" x2="882" y2="205" stroke="#D7DEE9"/>
+<rect x="20" y="206" width="862" height="48" rx="4" fill="#FAFBFD"/>
+<text x="30" y="228" font-size="14" fill="#172033" font-weight="700" text-anchor="start">Claim-level audit</text>
+<text x="30" y="246" font-size="12" fill="#768399" font-weight="400" text-anchor="start">checks traceability</text>
+<circle cx="286" cy="230" r="8" fill="#245EA8"/>
+<circle cx="424" cy="230" r="8" fill="#245EA8"/>
+<circle cx="562" cy="230" r="8" fill="#245EA8"/>
+<circle cx="700" cy="230" r="8" fill="#245EA8"/>
+<circle cx="838" cy="230" r="8" fill="#FFFFFF" stroke="#768399" stroke-width="2"/>
+<line x1="20" y1="254" x2="882" y2="254" stroke="#D7DEE9"/>
+<text x="30" y="277" font-size="14" fill="#172033" font-weight="700" text-anchor="start">Interventional test</text>
+<text x="30" y="295" font-size="12" fill="#768399" font-weight="400" text-anchor="start">perturbs evidence</text>
+<circle cx="286" cy="279" r="8" fill="#FFFFFF" stroke="#768399" stroke-width="2"/>
+<line x1="416" y1="279" x2="432" y2="279" stroke="#D7DEE9" stroke-width="2"/>
+<circle cx="562" cy="279" r="8" fill="#245EA8"/>
+<circle cx="700" cy="279" r="8" fill="#245EA8"/>
+<circle cx="838" cy="279" r="8" fill="#FFFFFF" stroke="#768399" stroke-width="2"/>
+<line x1="20" y1="303" x2="882" y2="303" stroke="#D7DEE9"/>
+<rect x="20" y="304" width="862" height="48" rx="4" fill="#FAFBFD"/>
+<text x="30" y="326" font-size="14" fill="#172033" font-weight="700" text-anchor="start">Independent re-test</text>
+<text x="30" y="344" font-size="12" fill="#768399" font-weight="400" text-anchor="start">re-runs outside the team</text>
+<circle cx="286" cy="328" r="8" fill="#245EA8"/>
+<circle cx="424" cy="328" r="8" fill="#245EA8"/>
+<circle cx="562" cy="328" r="8" fill="#245EA8"/>
+<circle cx="700" cy="328" r="8" fill="#245EA8"/>
+<circle cx="838" cy="328" r="8" fill="#245EA8"/>
+<line x1="20" y1="352" x2="882" y2="352" stroke="#D7DEE9"/>
+<circle cx="32" cy="372" r="6" fill="#245EA8"/>
+<text x="45" y="376" font-size="12" fill="#526076" font-weight="500" text-anchor="start">direct target</text>
+<circle cx="168" cy="372" r="6" fill="#FFFFFF" stroke="#768399" stroke-width="2"/>
+<text x="181" y="376" font-size="12" fill="#526076" font-weight="500" text-anchor="start">reported or indirect</text>
+<line x1="354" y1="372" x2="366" y2="372" stroke="#D7DEE9" stroke-width="2"/>
+<text x="378" y="376" font-size="12" fill="#526076" font-weight="500" text-anchor="start">generally outside scope</text>
+<text x="882" y="376" font-size="12" fill="#768399" font-weight="400" text-anchor="end" font-style="italic">coverage varies by implementation</text>
+</svg>
