@@ -379,15 +379,9 @@ FIGURES = [
     ('fig-landscape.tex', 'ai-scientist-landscape-review',
      'fig:landscape',
      'Scope of the reviewed AI Scientist landscape. Classical comparators and contextual publications are separated from the 27 contemporary systems used in the landscape counts. Contemporary systems are grouped only by application area; position and adjacency do not imply influence, maturity, or epistemic capability.'),
-    ('fig-loop.tex', 'ai-scientist-overview',
-     'fig:loop',
-     'Epistemic control in an AI Scientist. Claim representation (H) and scientific state (S) determine what can be updated; evidence substrate (E) records what enters the loop; adjudication (A) records how it is interpreted; and update (U) records what changes. Provenance (P) records who produced or checked the evidence. Operational updates U0--U3 change a selection, output, or record, whereas U4--U6 alter an explicit claim-level epistemic variable.'),
     ('fig-history.tex', 'ai-scientist-historical-transition',
      'fig:history-transition',
      'Historical design transition in what is placed under machine control. The phases are analytic rather than genealogical: early discovery systems manipulated explicit scientific objects in narrow domains; language-model reasoning and tool use broadened task handling; and contemporary frameworks broaden research horizon and orchestration. Increased agentic control does not by itself supply explicit evidence-linked revision of represented claims.'),
-    ('fig-instruments.tex', 'ai-scientist-evaluation-instruments',
-     'fig:evaluation-instruments',
-     "Schematic observational coverage of common AI Scientist evaluation instruments. Filled markers indicate the part of the research chain directly targeted, open markers indicate access through a reported artefact or another indirect signal, and dashes indicate that the element is generally outside the instrument's scope. Coverage does not guarantee correctness, and the scope of an independent re-test still depends on what is repeated."),
 ]
 
 
