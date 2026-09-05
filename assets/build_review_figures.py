@@ -381,7 +381,7 @@ FIGURES = [
      'Scope of the reviewed AI Scientist landscape. Classical comparators and contextual publications are separated from the 27 contemporary systems used in the landscape counts. Contemporary systems are grouped only by application area; position and adjacency do not imply influence, maturity, or epistemic capability.'),
     ('fig-history.tex', 'ai-scientist-historical-transition',
      'fig:history-transition',
-     'Historical design transition in what is placed under machine control. The phases are analytic rather than genealogical: early discovery systems manipulated explicit scientific objects in narrow domains; language-model reasoning and tool use broadened task handling; and contemporary frameworks broaden research horizon and orchestration. Increased agentic control does not by itself supply explicit evidence-linked revision of represented claims.'),
+     'Historical design transition in what is placed under machine control. The phases are analytic rather than genealogical: early discovery systems manipulated explicit scientific objects in narrow domains; language-model reasoning and tool use broadened task handling; and contemporary frameworks broaden research horizon and orchestration.'),
 ]
 
 
