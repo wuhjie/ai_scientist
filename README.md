@@ -2,9 +2,9 @@
 
 A critical review and verified catalogue of **LLM-based systems for autonomous and semi-autonomous scientific discovery** — AI Scientists, scientific agents, self-driving labs — organised around one question: **what has actually been verified, and who verified it?** Includes the reasoning, verification and evaluation literature these systems depend on.
 
-**Venues last verified: 29 July 2026.** Venues are re-verified on each such update; see [Verification policy](#verification-policy). That refresh moved HoneyComb and AstaBench out of `[preprint]`, added a *Checked by* axis to [§3](#3-systems-at-a-glance), added the process-supervision and citation-verification work in [§4](#4-reasoning--verification-substrate)–[§5](#5-evidence-attribution--claim-verification), and added a [structural analysis](#structural-analysis-of-a-15-system-subset) of a 15-system subset coded from the papers themselves.
+**Venues last verified: 5 September 2026.** Venues are re-verified on each such update; see [Verification policy](#verification-policy). This refresh added the 2026 medical and evidence-tracing systems to [§2](#2-systems-by-subfield), four audit studies and three integrity/verification benchmarks to [§6](#6-critical-evaluations--audits)–[§7](#7-benchmarks), a fourth survey axis to [§8](#8-surveys--agenda-papers), and — the substantive change — a **reproducible corpus-construction pipeline** ([§9](#9-corpus-construction)), which replaces the continuous curation this file previously admitted to keeping no trail of.
 
-*Framing and denominators revised 13 August 2026. No venue re-check was performed on that date, so every `[preprint]` tag still dates from 29 July.*
+*Two corrections were made on this date. The claim in [§1](#1-classical-foundations-pre-llm) that the classical systems had refutation semantics "the LLM-agent generation has not yet recovered" is this catalogue's own inference and is now marked as such: a search of the literature found no published source making that comparison. And the "How this review differs" table has been rewritten, because the unit of analysis it advertised was dropped from the review itself.*
 
 > **Why another list?** Most repos in this space link to preprints that have since been peer-reviewed, and organise purely by application domain. This one tracks **canonical venues** (a large fraction of this field's headline systems are now in *Nature*, *Science* or *Nature Machine Intelligence*, not on arXiv), records **who performed each validation** rather than only whether one happened, and adds three sections that domain-organised lists usually omit: the **pre-LLM discovery systems**, the **reasoning/verification substrate**, and the **critical evaluations** of AI Scientists.
 
@@ -49,6 +49,7 @@ The figure’s panels differ from [§2](#2-systems-by-subfield)’s subfield tab
     - [How much of this has been independently re-tested?](#how-much-of-this-has-been-independently-re-tested)
   - [7. Benchmarks](#7-benchmarks)
   - [8. Surveys \& agenda papers](#8-surveys--agenda-papers)
+  - [9. Corpus construction](#9-corpus-construction)
   - [Verification policy](#verification-policy)
     - [Contributing](#contributing)
 
@@ -65,7 +66,7 @@ Section 2 organises systems by **application domain**, which is how most people 
 | **Validation** | Was anything checked outside the model? | `none` · `benchmark` · `leaderboard` · `in vitro` · `physical synthesis` |
 | **Checked by** | *Who* performed that check? | `authors` · `collaborating labs` · `external leaderboard` · `third party` |
 
-Two systems in different domains that share a row in Section 3 are usually more alike than two systems in the same domain that don't.
+The **Checked by** axis is the one this file most wants you to read: it is the axis other catalogues collapse, and the one [§6](#6-critical-evaluations--audits) turns on. The first two axes are descriptive conveniences. An earlier version of this file argued that two systems sharing a row in Section 3 are more alike than two systems sharing a domain; that argument was dropped from the review it accompanies for want of evidence, and it is not asserted here either.
 
 **Status tags.** `[preprint]` = no peer-reviewed version found as of the last update. `[blog]` = company/lab post only. `‡` = acceptance recorded from the authors' own arXiv statement and not yet confirmed against a proceedings index; the KDD 2026 AI4Science track admits both archival full papers and **non-archival extended abstracts**, and which category applies has not been determined. Untagged, bolded entries carry a venue verified against a publisher page, PubMed or an official proceedings index.
 
@@ -73,7 +74,13 @@ Two systems in different domains that share a row in Section 3 are usually more 
 
 ## 1. Classical foundations (pre-LLM)
 
-Included because these systems had **explicit hypothesis representations and explicit refutation semantics** — the capabilities the LLM-agent generation has not yet recovered. Frequently omitted from modern surveys; useful context for anyone working on hypothesis representation or belief revision.
+Included because these systems represented hypotheses in a form against which evidence could be evaluated directly. Frequently omitted from modern surveys; useful context for anyone working on hypothesis representation or belief revision.
+
+> ⚠️ **One claim here is ours, not the literature's.** It is tempting to add that these systems had refutation semantics *"the LLM-agent generation has not yet recovered"* — this file said exactly that until 5 September 2026. A search for a published source making that before/after comparison found none. The nearest published treatment contrasts symbolic and LLM-based hypothesis generation on **interpretability and traceability**, not on belief revision, and does not frame the difference as a loss. Treat the regression claim as an open conjecture requiring its own evidence, not as established background.
+
+**What the classical record does document** is the failure mode that the 2026 audits in [§6](#6-critical-evaluations--audits) rediscover. Adam's authors report that it *"came to an incorrect conclusion regarding one of its original 20 hypotheses which highlights a weakness in its system model"* — the model *"does not represent kinase control mechanisms, and so Adam did not take this into account"* ([Sparkes et al., *Automated Experimentation* 2:1, 2010](https://doi.org/10.1186/1759-4499-2-1)). Knowledge absent from what the system was given; a scientific conclusion resting on the gap; the error found afterwards by people. That is the same shape §6 finds in systems built four decades later.
+
+**Primary sources for the limitations above**, each verified against full text: [Lindsay, Buchanan, Feigenbaum & Lederberg, *Artificial Intelligence* 61 (1993)](https://doi.org/10.1016/0004-3702(93)90068-M) and [Feigenbaum & Buchanan, *Artificial Intelligence* 59 (1993)](https://doi.org/10.1016/0004-3702(93)90191-D) on DENDRAL's hand-elicited rules and the "crisis of knowledge representation" that motivated Meta-DENDRAL; Langley, Bradshaw & Simon, *BACON.5*, IJCAI-81, on BACON addressing "that part of the scientific process that starts with a set of data" while "scientists must also determine what data to gather"; Sparkes et al. (2010) on Adam and Eve. **KEKADA is the gap**: Kulkarni & Simon (1988) is paywalled and was not obtained, so its surprise mechanism is not characterised here beyond the one line below.
 
 | System | Year / venue | Contribution |
 |---|---|---|
@@ -99,6 +106,8 @@ Included because these systems had **explicit hypothesis representations and exp
 | [**Co-Scientist**](https://www.nature.com/articles/s41586-026-10644-y) (Google) | ***Nature* 655:487–496 (2026)** | "Generate, debate, evolve." Supervisor + six specialist agents (Generation, Reflection, Ranking, Proximity, Evolution, Meta-review); Elo tournament over hypotheses. Three wet-lab validations, incl. independently recapitulating an unpublished AMR mechanism |
 | [**ERA**](https://www.nature.com/articles/s41586-026-10658-6) (Google DeepMind) | ***Nature* 654:909–916 (2026)** | LLM + tree search over code against a scorable metric. Found **40 new single-cell analysis methods** beating the best human leaderboard entries; beat the official CovidHub COVID-19 hospitalisation ensemble |
 | [**Kosmos**](https://arxiv.org/abs/2511.02824) (Edison Scientific) | `[preprint]` | Structured **world model** (entities, relations, results, open questions) as long-term memory; ~12-hour campaigns, ~200 rollouts, ~1,500 papers read. Commercial/closed |
+| [**ScientistOne**](https://arxiv.org/abs/2605.26340) (Google) | `[preprint]` | **Chain-of-Evidence**: every claim required to trace to an evidence source, plus a four-check audit of its own output. Its audit of four baseline systems is the useful part — see [§6](#6-critical-evaluations--audits) |
+| [**EurekAgent**](https://arxiv.org/abs/2606.13662) (Tsinghua) | `[preprint]` | Argues the environment, not the agent, is the lever. Reports a new 26-circle packing result for under \$11 in API cost |
 | [**Agent Laboratory**](https://arxiv.org/abs/2501.04227) (AMD/JHU) | `[preprint]` | Multi-agent role-play across the research pipeline |
 | [**SCION**](https://arxiv.org/abs/2607.03863) | `[preprint]` | *Scientific Collaborative Innovation with Agentic Organizational Nexus.* Compiles intent into a **Research Execution Plan** — staged objectives, dependencies, verification checkpoints, expected artifacts, fallback conditions — over a hierarchical runtime with layered epistemic memory; specialist subagents' noisy local traces are normalised before reintegration |
 | [**Agon**](https://arxiv.org/abs/2606.24177) | `[preprint]` | Large-scale omnidisciplinary autonomous research system organised around a "prompt economy" |
@@ -118,6 +127,7 @@ Included because these systems had **explicit hypothesis representations and exp
 | [**Robin**](https://www.nature.com/articles/s41586-026-10652-y) (FutureHouse) | ***Nature* 655:497–505 (2026)** | Literature agent ↔ data-analysis agent with an **explicit hypothesis-update step**. Proposed enhancing RPE phagocytosis for dry AMD; identified and confirmed *in vitro* efficacy of **ripasudil** and **KL001** |
 | [**Virtual Lab**](https://www.nature.com/articles/s41586-025-09442-9) (Stanford) | ***Nature* (2025)** | LLM PI agent recruits specialist agents + a Scientific Critic; structured research meetings. Built an ESM → AlphaFold-Multimer → Rosetta pipeline; **92 nanobodies experimentally validated** against SARS-CoV-2 variants |
 | [**CRISPR-GPT**](https://www.nature.com/articles/s41551-025-01463-z) (Stanford) | ***Nature Biomedical Engineering* 10(2):245–258 (2026)** | Task-decomposed multi-agent system for gene-editing design. Enabled novices to complete lung-cancer knockouts and melanoma epigenetic activation |
+| [**MIRA**](https://doi.org/10.1038/s41586-026-10675-5) (EKFZ/TU Dresden, DKFZ) | ***Nature* (2026)**, doi 10.1038/s41586-026-10675-5 | *"Towards autonomous medical artificial intelligence agents."* Operates inside a **sandboxed EHR**: orders and interprets labs, imaging and microbiology, forms differentials, proposes treatment and admission. Outperformed physicians on diagnostic accuracy in the reported evaluation; the authors caution explicitly against removing human supervision. ⚠️ Venue confirmed via institutional press records and the Nature Asia release; the article page itself was behind an access wall at verification time |
 | [**PaperQA2**](https://arxiv.org/abs/2409.13740) (FutureHouse) | `[preprint]` | RAG agent over the literature with citation-graph traversal; reports superhuman literature retrieval and ~2.34 contradictions/paper detected in biology (70% validated) |
 | [**Empowering biomedical discovery with AI agents**](https://pubmed.ncbi.nlm.nih.gov/39486399/) (Zitnik lab) | ***Cell* (2024)** | Agenda paper; autonomy-level taxonomy for biomedical agents; frames "AI scientists" as systems capable of *skeptical* reasoning |
 
@@ -181,7 +191,7 @@ Included because these systems had **explicit hypothesis representations and exp
 
 The same systems, re-cut along the axes from [How to read this review](#how-to-read-this-review).
 
-**What this table's 27 rows are.** [§2](#2-systems-by-subfield) lists **29 entries**. Two are excluded here because neither is a discovery system — the agenda paper *Empowering biomedical discovery* and the MLE-bench benchmark — leaving **27 discovery systems**. **Agon** is dropped from those, its public record being too thin to code, and **Robot Scientist Adam** is carried down from [§1](#1-classical-foundations-pre-llm) as the pre-LLM reference point. So this table's 27 rows and §2's 27 discovery systems have the same size and are **not the same set**.
+**What this table's 27 rows are.** [§2](#2-systems-by-subfield) lists **32 entries**. Two are excluded here because neither is a discovery system — the agenda paper *Empowering biomedical discovery* and the MLE-bench benchmark — leaving **30 discovery systems**. Of those, **Agon** is dropped as too thinly documented to code, and **MIRA, ScientistOne and EurekAgent** were added in the 5 September 2026 refresh and are catalogued but **not yet coded** on these axes; coding them from abstracts alone would be the inference this table exists to avoid. **Robot Scientist Adam** is carried down from [§1](#1-classical-foundations-pre-llm) as the pre-LLM reference point. So this table holds 27 rows drawn from a 30-system catalogue, and the two sets are **not** the same.
 
 **"Checked by" is the axis most often collapsed.** *Validation* records what kind of check was performed; *Checked by* records who performed it. A wet-lab result produced by the authors' own laboratory and a score on a leaderboard maintained by a third party are both "validated" in most tables, and they are not the same evidence. Where a coding is not supported by the cited record, the cell reads `not reported` rather than being inferred.
 
@@ -289,6 +299,10 @@ The fastest-moving part of this field as of mid-2026, and the least covered by o
 | [Evaluating KOSMOS in radiation biology](https://arxiv.org/abs/2511.13825) | `[preprint]` | Independent test of three Kosmos hypotheses against **random-gene null controls**: one validated, one uncertain, one false (indistinguishable from noise) |
 | [Evaluating Sakana's AI Scientist](https://dl.acm.org/doi/10.1145/3769733.3769747) | ***ACM SIGIR Forum* 59(1)**, 2025 — opinion paper | Third-party evaluation (Beel, Kan & Baumgart) of AI Scientist v1: reports a **42% experiment failure rate**, hallucinated results that the system's own automated review did not catch, and many generated ideas judged not genuinely novel. The [arXiv version](https://arxiv.org/abs/2502.14297) carries a different title |
 | [Correct Answer, Wrong Mechanism](https://arxiv.org/abs/2606.23175) | **ICML 2026 AI4Science WS (spotlight)** | Agents reach right-looking results via reasoning that breaks under regime shift; one defended a claim with physics inconsistent with its own data. Proposes a two-step mechanism-fidelity check |
+| [Why LLMs Aren't Scientists Yet](https://arxiv.org/abs/2601.03315) | `[preprint]` | Case study of **four** end-to-end autonomous paper attempts; **three failed** at implementation or evaluation, one was accepted to Agents4Science 2025. Names six recurring failure modes, including **bias toward training-data defaults** and declaring success despite evident failure |
+| [The More You Automate, the Less You See](https://arxiv.org/abs/2509.08713) | `[preprint]` | Demonstrates four pitfalls in controlled experiments: inappropriate benchmark selection, **data leakage**, metric misuse, post-hoc selection bias |
+| [SciIntegrity-Bench](https://arxiv.org/abs/2605.10246) | `[preprint]` | 33 scenarios where honest acknowledgement of failure is the only correct response. **34.2%** aggregate integrity-failure rate over 231 runs across 7 models; in missing-data scenarios **all seven fabricated data** |
+| [BadScientist](https://arxiv.org/abs/2510.18003) | `[preprint]` | Fabrication-oriented agents with **no real experiments** deceive multi-model LLM review systems. The automated-reviewer channel is attackable, not merely weak |
 | [Can LLMs Generate Novel Research Ideas?](https://proceedings.iclr.cc/paper_files/paper/2025/hash/ea94957d81b1c1caf87ef5319fa6b467-Abstract-Conference.html) | **ICLR 2025** | 100+ NLP researchers, blind review: LLM ideas judged **more novel** than expert human ideas, slightly less feasible |
 | [Agents4Science reflections](https://www.nature.com/articles/s41587-025-02963-8) | ***Nature Biotechnology* (2025)** | First venue requiring AI first-authorship, with LLM reviewers and human spot-checks; public OpenReview record |
 | [A-Lab characterisation dispute](https://www.chemistryworld.com/news/new-analysis-raises-doubts-over-autonomous-labs-materials-discoveries/4018791.article) | news + response | Reanalysis questioned space-group assignments; the lead author conceded a human could produce a higher-quality refinement while defending the demonstration's scope |
@@ -299,7 +313,7 @@ Counting only cases where a group **unconnected to the original authors** re-tes
 
 In all three the third party's verdict was partly or wholly negative — one of three Kosmos hypotheses upheld, A-Lab's space-group assignments questioned, a 42% experiment failure rate in AI Scientist v1. The *Checked by* column in [§3](#3-systems-at-a-glance) carries these outcomes rather than recording a bare "third party", since an external check is not the same as external corroboration.
 
-Those three re-tests cover three distinct systems — Kosmos, A-Lab and AI Scientist — out of the **27 discovery systems** catalogued in [§2](#2-systems-by-subfield), 17 of which carry a peer-reviewed venue. (§2 lists 29 entries; the agenda paper and MLE-bench are excluded from the denominator because neither is a discovery system — the same rule stated in [§3](#3-systems-at-a-glance).)
+Those three re-tests cover three distinct systems — Kosmos, A-Lab and AI Scientist — out of the **30 discovery systems** catalogued in [§2](#2-systems-by-subfield), 18 of which carry a verified peer-reviewed venue. (§2 lists 32 entries; the agenda paper and MLE-bench are excluded from the denominator because neither is a discovery system — the same rule stated in [§3](#3-systems-at-a-glance).)
 
 This is worth separating from a larger figure often quoted alongside it: several systems report **wet-lab validation**, but in the published record those experiments were run by the authors or their collaborators — Co-Scientist's three validations in partner labs, Virtual Lab's 92 nanobodies, Robin's *ripasudil*/KL001 assays, CRISPR-GPT's knockouts. That is author-side validation, which is a different evidential category from third-party replication. ERA is the closest thing to an external check by construction, since a public leaderboard is scored by someone else against a pre-existing standard.
 
@@ -318,6 +332,9 @@ This is a count of what the sources record, not a claim that the remainder are w
 | [PaperBench](https://proceedings.mlr.press/v267/starace25a.html) | **ICML 2025** | Replication | Replicate 20 ICML 2024 Spotlight/Oral papers; 8,316 gradable sub-tasks; best agent 21.0% |
 | [ChemBench](https://www.nature.com/articles/s41557-025-01815-x) | ***Nature Chemistry* (2025)** | Chemistry | 2,788 Q–A pairs; best models beat the best human chemists on average but are overconfident |
 | [AstaBench](https://openreview.net/forum?id=M7TNf5J26u) | **ICLR 2026 (Oral)** | Cross-domain | 2,400+ problems, 57 agents / 22 classes evaluated; production-grade search tools for controlled comparison and explicit cost accounting |
+| [SPOT](https://arxiv.org/abs/2505.11855) | `[preprint]` | Verification | 83 published papers paired with **91 errors severe enough to have prompted an erratum or retraction**, cross-validated with the actual authors. Best model: **21.1% recall at 6.1% precision.** The clearest measure of why automated review cannot yet substitute for external correction |
+| [EXP-Bench](https://arxiv.org/abs/2505.24785) | `[preprint]` | Research experiments | 461 tasks. Partial credit 20–35%, **full end-to-end success 0.5%** |
+| [MLR-Bench](https://arxiv.org/abs/2505.19955) | **NeurIPS 2025 D&B** | Open-ended ML research | 201 tasks; **fabricated or invalidated results in ~80% of cases** while the manuscripts stay fluent |
 | [LAB-Bench](https://arxiv.org/abs/2407.10362) | `[preprint]` | Biology | 2,457 questions across 8 categories (LitQA2, SeqQA, ProtocolQA, …) |
 | [BixBench](https://arxiv.org/abs/2503.00096) | `[preprint]` | Computational biology | 53 real scenarios, 296 open-answer questions; frontier models ~17% |
 | RE-Bench (METR) | `[preprint]` | ML research | Human-vs-agent research engineering |
@@ -340,6 +357,7 @@ This is a count of what the sources record, not a claim that the remainder are w
 | [Towards Scientific Intelligence: LLM-based Scientific Agents](https://arxiv.org/abs/2503.24047) | `[preprint]` | Mechanism-centric: planners, memory, action space, **verifiers** |
 | [Agentic AI for Scientific Discovery](https://arxiv.org/abs/2503.08979) | `[preprint]` | Progress, challenges, future directions |
 | [From AI for Science to Agentic Science](https://arxiv.org/abs/2508.14111) | `[preprint]` | Traces the transition from models-as-tools to agents-as-investigators |
+| [Evolving Roles of LLMs in Scientific Innovation](https://arxiv.org/abs/2507.11810) | `[preprint]` | Four **roles** — assistant, collaborator, scientist, **evaluator** — offered explicitly as a corrective to autonomy-only ladders. Alone in treating evaluation as a first-class category rather than a pipeline stage |
 | [Architecting Trust in Artificial Epistemic Agents](https://arxiv.org/abs/2603.02960) | `[preprint]` | Argues for demonstrable *epistemic competence* — including the ability to evaluate the reliability of evidence — as a deployment precondition |
 | [Autonomous Research Agents: A Survey of AI Scientists and the Verification Gap](https://arxiv.org/abs/2608.05179) | `[preprint]` | Codes systems by inspectable **audit artifact** — code release, execution traces, novelty-verification method. Scoped to computational AI/ML research; 125 screened, 35 included, 26 coded |
 | [A Survey of AI Scientists](https://arxiv.org/abs/2510.23045) | `[preprint]` | Six-stage research-lifecycle framework: literature review, ideation, preparation, execution, writing, paper generation |
@@ -348,30 +366,92 @@ This is a count of what the sources record, not a claim that the remainder are w
 ### How this review differs
 
 Not a claim of priority — several of the above are broader, and two are peer-reviewed where
-this is not. The difference is the **unit of analysis**.
+this is not. And the honest starting point is that the territory is **already partly
+occupied**: the Verification Gap survey splits its closed-loop level into systems that
+*"re-run or re-fit on an internal metric"* versus those that *"revise a scientific hypothesis
+against an outside oracle"*, which is close to the distinction this catalogue was built
+around. Anyone reading this file should read that survey too.
 
-| | Unit of analysis | Corpus scope |
-|---|---|---|
-| Automation to Autonomy | level of autonomy | all domains |
-| From AI for Science to Agentic Science | capability and domain realisation | all domains |
-| A Survey of AI Scientists | stage of the research lifecycle | all domains |
-| Verification Gap | inspectable audit artifact | computational AI/ML only |
-| Recursive Self-Improvement | strength of the evaluator's guarantee | self-improving systems |
-| **This review** | the hypothesis object, and what evidence changes about it | all domains, incl. wet lab |
+| | Unit of analysis | Corpus scope | Corpus procedure |
+|---|---|---|---|
+| Automation to Autonomy | level of autonomy | all domains | not stated |
+| Towards Scientific Intelligence | agent architecture | all domains | not stated |
+| Evolving Roles | role relative to the researcher | multi-domain | not stated |
+| From AI for Science to Agentic Science | capability and domain realisation | all domains | not stated |
+| A Survey of AI Scientists | stage of the research lifecycle | all domains | not stated |
+| Recursive Self-Improvement | strength of the evaluator's guarantee | self-improving systems | source, window, size |
+| Verification Gap | inspectable audit artifact | computational AI/ML only | **full screening trail** |
+| **This catalogue** | **who corrected the claim, and when** | all domains, incl. wet lab | [§9](#9-corpus-construction) |
 
-The two closest are the last two, and both take the **evaluator** as the unit: whether it can
-be audited, and how strong a signal it gives. This review asks what the evaluator acts upon —
-what kind of claim a system maintains, and what an incoming result changes about it. A system
-can have a formally strong evaluator and still have nothing that evidence revises, because
-repeated execution against a metric closes an optimisation loop rather than a
-hypothesis–evidence loop.
+**What this file is for, stated narrowly.** Not "what can these systems do" but: *when a claim
+made by one of these systems turned out to be wrong, what corrected it?* Across every case
+documented here — the [A-Lab reanalysis](#6-critical-evaluations--audits), the Kosmos
+radiation-biology audit, the third-party evaluation of AI Scientist v1, and Adam's kinase
+error in [§1](#1-classical-foundations-pre-llm) — the answer is an independent re-analysis,
+an unaffiliated audit, an external tool, or a human operator. **No entry in this catalogue
+records a system detecting and revising its own scientific error unprompted.**
 
-Two scope notes. The Verification Gap survey deliberately restricts itself to computational
-AI/ML research, where code and benchmarks stay inspectable; this catalogue includes wet-lab,
+That is falsifiable, and a correction would be the most valuable contribution this file could
+receive: a documented instance of one of these systems catching a defect in its own claim
+during a run and revising the claim in consequence, with no external party supplying the
+challenge. If you have one, please open an issue.
+
+**The counter-evidence belongs here too.** Revision is not absent — [refutation-driven belief
+revision occurs in 26% of coded traces](#6-critical-evaluations--audits), and the base model
+explains far more variance than the scaffold. The failure is engineerable: maintaining
+evidence chains during generation, rather than auditing afterwards, produced zero hallucinated
+references in 337. And **no AI-produced paper has been retracted post-publication** — the
+withdrawals on record are procedural (Sakana pre-committed to withdrawing regardless of
+outcome; Autoscience's concerned attribution norms), not error-forced.
+
+**One scope note.** The Verification Gap survey restricts itself to computational AI/ML
+research, where code and benchmarks stay inspectable. This catalogue includes wet-lab,
 chemistry and self-driving-lab systems, where inspection is harder and the coding is
-correspondingly less certain. And that survey reports a screening trail — 125 → 35 → 26 —
-where this catalogue was assembled by continuous curation and kept none; see
-[Verification policy](#verification-policy).
+correspondingly less certain — and where, precisely because a reader cannot re-run a furnace,
+the external correction that every case above depended on is hardest to apply.
+
+---
+
+## 9. Corpus construction
+
+Until 5 September 2026 this file was assembled by continuous curation and kept no screening
+trail, which is why it reported no proportions and why the comparison table above once read
+"not stated" in its own row. That is now replaced by a pipeline in the
+[review project](review/corpus/):
+
+```bash
+python3 review/corpus/build_corpus.py               # harvest + screen; stdlib only
+<venv>/bin/python review/corpus/cluster_corpus.py   # emergent topics
+```
+
+Method follows the screening and topic-modelling structure of [Huang, Zhou & Li's LitLA
+workflow](https://arxiv.org/abs/2404.14228): a seeded database query, exclusion criteria
+applied in a recorded order, and unsupervised clustering to derive structure rather than
+imposing it. Substitutions are forced by access — OpenAlex in place of Web of Science and
+Scopus, `all-MiniLM-L6-v2` in place of `voyage-2-large` — and are listed with their costs in
+[`review/corpus/README.md`](review/corpus/README.md).
+
+**Current state:** 7,200 records returned → 6,152 de-duplicated → **887 retained** → **40
+clusters, 15% unassigned**. Every stage is counted in `prisma.json`.
+
+**Two failures are recorded rather than hidden**, because both change how the numbers should
+be read. The first harvest used OpenAlex's plain `search`, which ORs terms and matches full
+text; its most-cited "AI scientist" hits included the STRING database and a dementia-prevalence
+study. Quoted phrases against `title_and_abstract.search`, plus a literal re-check, fixed it.
+The first clustering substituted TruncatedSVD for UMAP and collapsed to four clusters with 57%
+unassigned — density-based clustering needs the non-linear reduction.
+
+> ⚠️ **These numbers are not yet findings.** The corpus is unscreened, heavily skewed to 2026
+> (637 of 887), retains low-quality preprints, and includes at least one paper on gender
+> portrayals of AI scientists in cinema, which matches "AI scientist" literally. LitLA
+> validated its landscape by interviewing 20 domain researchers; nothing here has been
+> validated by anyone. Manual screening is the next step, and until it happens no figure in
+> this section should be quoted as a property of the field.
+
+**One result is worth flagging even at this stage.** The largest emergent cluster is **AI
+safety, ethics and risk** (41 papers) — a topic this catalogue does not currently cover at
+all. That is the argument for clustering over curation: it surfaces what the curator was not
+looking for.
 
 ---
 
@@ -381,6 +461,8 @@ where this catalogue was assembled by continuous curation and kept none; see
 - `[preprint]` means no peer-reviewed version was found **at that date** — this field moves fast and several 2025 preprints became *Nature*/*Science* papers in 2026. Re-check before citing.
 - `‡` means acceptance is recorded from the authors' own arXiv statement and has **not** been confirmed against a proceedings index. It is used where the venue has both archival and non-archival categories and the record does not say which applies.
 - Quantitative claims are taken from paper abstracts or full text where openly accessible. Figures sourced only from secondary coverage are not included.
+
+**Corrections made on 5 September 2026.** Two claims in earlier versions of this file were wrong or unsupported. The refutation-semantics regression in [§1](#1-classical-foundations-pre-llm) is unsupported by any published source and is now marked as this catalogue's own conjecture. And a related survey — *Recursive Self-Improvement in AI* ([arXiv 2607.07663](https://arxiv.org/abs/2607.07663)) — was briefly recorded elsewhere in this project as unresolvable after a failed search; it is real, was listed correctly here throughout, and has been reinstated in the accompanying review.
 
 **Known-stale risk.** Entries tagged `[preprint]` in §2 and §6 are the most likely to have been published since the last update. Note also that an arXiv `journal_ref` field is not a reliable negative: both upgrades found in the July 2026 refresh (HoneyComb, AstaBench) had empty or non-committal arXiv metadata and were caught only by checking ACL Anthology and OpenReview directly. Some `[preprint]` tags above are therefore likely to be false.
 
